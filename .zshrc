@@ -66,3 +66,7 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 # ayenv
 eval "$(anyenv init - --no-rehash)"
+
+# なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、
+# bindkeyをリセット
+bindkey -d
