@@ -5,7 +5,7 @@
 fpath+=$(brew --prefix)/share/zsh-completions
 fpath+=$(brew --prefix)/share/zsh/site-functions
 
-# cargo rustup completion
+# zsh completion (cargo, rustup, volta)
 fpath+=$HOME/.zsh/completions
 
 # openjdk(homebrew)
