@@ -65,7 +65,7 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # ayenv
-eval "$(anyenv init - --no-rehash)"
+# eval "$(anyenv init - --no-rehash)"
 
 # なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、
 # bindkeyをリセット
