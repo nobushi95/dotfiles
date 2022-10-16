@@ -8,8 +8,10 @@ oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\jandedobbeleer.
 
 Import-Module Terminal-Icons
 
-# Volta tab-completions
+# tab-completions
 (& volta completions powershell) | Out-String | Invoke-Expression
+(& rustup completions powershell) | Out-String | Invoke-Expression
+# (& rustup completions powershell cargo) | Out-String | Invoke-Expression # cargoは未サポート
 
 # Alias
 
