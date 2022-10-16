@@ -8,6 +8,9 @@ oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\jandedobbeleer.
 
 Import-Module Terminal-Icons
 
+# Volta tab-completions
+(& volta completions powershell) | Out-String | Invoke-Expression
+
 # Alias
 
 ## base
