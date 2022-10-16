@@ -10,6 +10,10 @@ Import-Module Terminal-Icons
 
 # Alias
 
+## base
+function ls-fun { ls $args }
+Set-Alias -Name l -Value ls-fun
+
 ## VSCode
 function code-r { code -r $args }
 Set-Alias -Name cr -Value code-r
