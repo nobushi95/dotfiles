@@ -12,6 +12,7 @@ Import-Module Terminal-Icons
 Import-Module PSReadLine
 Set-PSReadlineOption -EditMode Emacs
 Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteChar
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 
 # tab-completions
 (& volta completions powershell) | Out-String | Invoke-Expression
