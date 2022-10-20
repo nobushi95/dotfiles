@@ -8,6 +8,11 @@ oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\jandedobbeleer.
 
 Import-Module Terminal-Icons
 
+# emacs keybinding
+Import-Module PSReadLine
+Set-PSReadlineOption -EditMode Emacs
+Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteChar
+
 # tab-completions
 (& volta completions powershell) | Out-String | Invoke-Expression
 (& rustup completions powershell) | Out-String | Invoke-Expression
