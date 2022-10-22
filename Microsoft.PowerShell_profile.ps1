@@ -2,7 +2,6 @@
 # New-Item -Type SymbolicLink {sourceFile} -Value {destFile}
 
 Import-Module posh-git
-Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 
 oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\jandedobbeleer.omp.json" | Invoke-Expression
 
