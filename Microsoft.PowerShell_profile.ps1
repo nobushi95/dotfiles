@@ -9,6 +9,7 @@ Import-Module Terminal-Icons
 
 # auto suggestion
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
 
 # emacs keybinding
 Import-Module PSReadLine
