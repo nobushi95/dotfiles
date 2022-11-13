@@ -7,6 +7,9 @@ oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\powerlevel10k_r
 
 Import-Module Terminal-Icons
 
+# auto suggestion
+Set-PSReadLineOption -PredictionSource History
+
 # emacs keybinding
 Import-Module PSReadLine
 Set-PSReadlineOption -EditMode Emacs
