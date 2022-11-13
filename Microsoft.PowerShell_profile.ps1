@@ -3,7 +3,7 @@
 
 Import-Module posh-git
 
-oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\jandedobbeleer.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\powerlevel10k_rainbow.omp.json" | Invoke-Expression
 
 Import-Module Terminal-Icons
 
