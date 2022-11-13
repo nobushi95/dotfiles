@@ -24,8 +24,9 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 # Alias
 
 ## base
-function ls-fun { ls $args }
-Set-Alias -Name l -Value ls-fun
+Set-Alias l ls
+Set-Alias ll ls
+Set-Alias la ls
 
 ## VSCode
 function code-r { code -r $args }
@@ -36,7 +37,7 @@ function source-fun { . $PROFILE }
 Set-Alias -Name source-profile -Value source-fun
 
 ## git
-Set-Alias -Name g -Value git
+Set-Alias g git
 
 function git-pull { git pull $args }
 Set-Alias -Name pull -Value git-pull
