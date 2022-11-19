@@ -28,6 +28,7 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 Set-Alias l ls
 Set-Alias ll ls
 Set-Alias la ls
+Set-Alias open Invoke-Item
 
 ## VSCode
 function code-r { code -r $args }
