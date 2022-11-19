@@ -2,14 +2,16 @@
 # New-Item -Type SymbolicLink {sourceFile} -Value {destFile}
 
 Import-Module posh-git
+Import-Module Terminal-Icons
 
 oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\powerlevel10k_rainbow.omp.json" | Invoke-Expression
 
-Import-Module Terminal-Icons
-
-# auto suggestion
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
+# PowerShell7
+if (7 -eq $PSVersionTable.PSVersion.Major) {
+    ## auto suggestion
+    Set-PSReadLineOption -PredictionSource History
+    Set-PSReadLineOption -PredictionViewStyle ListView
+}
 
 # emacs keybinding
 Import-Module PSReadLine
