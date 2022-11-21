@@ -1,6 +1,9 @@
 # powershell でのシンボリックリンクの作り方
 # New-Item -Type SymbolicLink {sourceFile} -Value {destFile}
 
+# ビープ音無効化
+Set-PSReadlineOption -BellStyle None
+
 Import-Module posh-git
 Import-Module Terminal-Icons
 
