@@ -33,6 +33,7 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 Set-Alias l ls
 Set-Alias ll ls
 Set-Alias la ls
+Set-Alias lla ls
 Set-Alias open Invoke-Item
 
 ## VSCode
