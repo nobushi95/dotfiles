@@ -71,5 +71,5 @@ Set-Alias -Name gs -Value git-status
 # gm が Get-Member のデフォルトエイリアスとなっているため上書き
 # Set-Alias のオプションで -Option AllScope とすればよさそう？？ -> -Forceで上書きも必要？
 # 参考: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.3#example-3-create-and-change-a-read-only-alias
-function git-commit-with-arguments-message { git commit --message $args }
+function git-commit-with-arguments-message { git commit --message "$args" }
 Set-Alias -Name gm -Value git-commit-with-arguments-message -Force -Option AllScope
