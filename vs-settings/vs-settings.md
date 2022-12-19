@@ -95,3 +95,22 @@
 - Visual Studio Theme Pack
   - テーマ：Dark+
 - Open in Visual Stduio Code
+
+### VSColorOutput64
+
+RegEx Patterns デフォルト値
+
+0. "\+\+\+\>",LogCustom1,False
+1. ".*[t|c]sc\.exe.*",BuildText,False
+2. "(=====|-----|Projects build report|Status    \| Project \[Config\|platform\])",BuildHead,False
+3. "0 error.+0 warning",BuildHead,True
+4. "^\s*0 error\(s\)\s*$",BuildHead,True
+5. "^\s*0 warning\(s\)\s*$",BuildHead,True
+6. "0 failed|Succeeded",BuildHead,True
+7. "(\W|^)^(?!.*warning\s(BC|CS|CA)\d+:).*((?<!/)error|fail|crit|failed|exception)[^\w\.\-\+]",LogError,True
+8. "(exception:|stack trace:)",LogError,True
+9. "^\s+at\s",LogError,True
+10. "(\W|^)(warning|warn)\W",LogWarning,True
+11. "(\W|^)(information|info)\W",LogInformation,True
+12. "Could not find file",LogError,True
+13. "failed",LogError,True
