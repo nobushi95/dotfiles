@@ -10,8 +10,8 @@
 | テキストエディター |        HackGen        |   12   | スケール93% |
 |     ターミナル     | HackGen35 Console NFJ |   10   |             |
 
-
 ## 設定
+
 - プロジェクトおよびソリューション
   - 全般
     - アクティブな項目をソリューションエクスプローラー
@@ -118,7 +118,7 @@ RegEx Patterns デフォルト値
 7. `"(\W|^)^(?!.*warning\s(BC|CS|CA)\d+:).*((?<!/)error|fail|crit|failed|exception)[^\w\.\-\+]",LogError,True`
 8. `"(exception:|stack trace:)",LogError,True`
 9. `"^\s+at\s",LogError,True`
-10. ` "(\W|^)(warning|warn)\W",LogWarning,True`
-11. ` "(\W|^)(information|info)\W",LogInformation,True`
-12. ` "Could not find file",LogError,True`
-13. ` "failed",LogError,True`
+10. `"(\W|^)(warning|warn)\W",LogWarning,True`
+11. `"(\W|^)(information|info)\W",LogInformation,True`
+12. `"Could not find file",LogError,True`
+13. `"failed",LogError,True`
