@@ -126,6 +126,11 @@
                     <Shortcut Command="Window.NextDocumentWindow" Scope="全体">Ctrl+X, O</Shortcut>
                     <Shortcut Command="Window.NewWindow" Scope="全体">Ctrl+X, Ctrl+V</Shortcut>
                     <Shortcut Command="Edit.EmacsLineStart" Scope="テキスト エディター">Ctrl+A</Shortcut>
+                    <RemoveShortcut Command="Edit.EmacsWordNext" Scope="テキスト エディター">Alt+Right Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsWordPrevious" Scope="テキスト エディター">Alt+Left Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.Undo" Scope="テキスト エディター">Ctrl+Shift+-</RemoveShortcut>
+                    <Shortcut Command="View.NavigateForward" Scope="全体">Alt+Right Arrow</Shortcut>
+                    <Shortcut Command="View.NavigateBackward" Scope="全体">Alt+Left Arrow</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
