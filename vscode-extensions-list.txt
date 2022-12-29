@@ -1,6 +1,7 @@
 aaronduino.chisel
 adrianwilczynski.asp-net-core-switcher
 alefragnani.Bookmarks
+alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
@@ -11,6 +12,7 @@ codezombiech.gitignore
 cschlosser.doxdocgen
 csholmq.excel-to-markdown-table
 dan-c-underwood.arm
+DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 DotJoshJohnson.xml
@@ -70,6 +72,7 @@ oderwat.indent-rainbow
 patcx.vscode-nuget-gallery
 PKief.material-icon-theme
 pranaygp.vscode-css-peek
+qwtel.sqlite-viewer
 rebornix.ruby
 redhat.java
 ritwickdey.LiveServer
@@ -105,6 +108,7 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 wayou.vscode-todo-highlight
+willasm.rc-script
 wingrunr21.vscode-ruby
 xdebug.php-debug
 yzane.markdown-pdf
