@@ -5,6 +5,7 @@
 	# email = emailadress@mail.com
 [merge]
 	tool = vscode
+	ff = false
 [mergetool "vscode"]
 	# cmd = code --wait $MERGED # 旧設定？
 	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED # 新設定？
@@ -21,3 +22,5 @@
 	cp = cherry-pick
 	gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 	graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+[pull]
+	ff = only
