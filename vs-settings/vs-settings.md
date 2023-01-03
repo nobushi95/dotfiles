@@ -114,6 +114,10 @@
 - Visual Studio Theme Pack
   - テーマ：Dark+
 - Open in Visual Stduio Code
+- Color Picker (x64)
+  - 拡張子を追加
+    - c, cpp, h, hpp
+  - Color Swatcher を "ColorBox-Left"に設定
 
 ### 4.1. VSColorOutput64
 
