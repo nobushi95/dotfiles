@@ -16,6 +16,7 @@ oh-my-posh
 openjdk
 posh-git
 scoop-completion
+sqlitebrowser
 sudo
 terminal-icons
 volta
