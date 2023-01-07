@@ -119,6 +119,9 @@
   - 拡張子を追加
     - c, cpp, h, hpp
   - Color Swatcher を "ColorBox-Left"に設定
+- Format on Save for VS2022
+- File Path On Fotter
+- Microsoft Visual Studio Installer Projects 2022
 
 ### 4.1. VSColorOutput64
 
