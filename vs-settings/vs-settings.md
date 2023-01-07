@@ -122,6 +122,7 @@
 - Format on Save for VS2022
 - File Path On Fotter
 - Microsoft Visual Studio Installer Projects 2022
+- ResXManager
 
 ### 4.1. VSColorOutput64
 
