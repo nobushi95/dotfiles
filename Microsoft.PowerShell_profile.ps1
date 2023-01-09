@@ -75,3 +75,6 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 (& volta completions powershell) | Out-String | Invoke-Expression
 (& rustup completions powershell) | Out-String | Invoke-Expression
 # (& rustup completions powershell cargo) | Out-String | Invoke-Expression # cargoは未サポート
+
+# コンソールのエンコードをUTF-8にする
+[System.Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
