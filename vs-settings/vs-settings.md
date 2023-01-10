@@ -20,7 +20,7 @@
 | 環境               | Segoe UI              |   10   |             |
 | テキストエディター | HackGen               |   12   | スケール93% |
 | ターミナル         | HackGen35 Console NFJ |   10   |             |
-| 出力ウィンドウ     | Cascadia Code         |   9    |             |
+| 出力ウィンドウ     | Cascadia Code         |   10   |             |
 
 ## 2. 設定
 
