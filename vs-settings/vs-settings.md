@@ -165,22 +165,22 @@
 
 RegEx Patterns デフォルト値
 
-| ClassificationType | IgnoreCase | RegExPattern                                                                                |
-| :----------------: | ---------- | ------------------------------------------------------------------------------------------- |
-|     LogCustom1     | False      | `\+\+\+\>`                                                                                  |
-|     BuildText      | False      | `.*[t|c]sc\.exe.*`                                                                          |
-|     BuildHead      | False      | `(=====|-----|Projects build report|Status    \| Project \[Config\|platform\])`             |
-|     BuildHead      | True       | `0 error.+0 warning`                                                                        |
-|     BuildHead      | True       | `^\s*0 error\(s\)\s*$`                                                                      |
-|     BuildHead      | True       | `^\s*0 warning\(s\)\s*$`                                                                    |
-|     BuildHead      | True       | `0 failed|Succeeded`                                                                        |
-|      LogError      | True       | `(\W|^)^(?!.*warning\s(BC|CS|CA)\d+:).*((?<!/)error|fail|crit|failed|exception)[^\w\.\-\+]` |
-|      LogError      | True       | `(exception:|stack trace:)`                                                                 |
-|      LogError      | True       | `^\s+at\s`                                                                                  |
-|     LogWarning     | True       | `(\W|^)(warning|warn)\W`                                                                    |
-|   LogInformation   | True       | `(\W|^)(information|info)\W`                                                                |
-|      LogError      | True       | `Could not find file`                                                                       |
-|      LogError      | True       | `failed`                                                                                    |
+| ClassificationType | IgnoreCase | RegExPattern                                                                                       |
+| :----------------: | ---------- | -------------------------------------------------------------------------------------------------- |
+|     LogCustom1     | False      | `\+\+\+\>`                                                                                         |
+|     BuildText      | False      | `.*[t\|c]sc\.exe.*`                                                                                |
+|     BuildHead      | False      | `(=====\|-----\|Projects build report\|Status    \\| Project \[Config\\|platform\])`               |
+|     BuildHead      | True       | `0 error.+0 warning`                                                                               |
+|     BuildHead      | True       | `^\s*0 error\(s\)\s*$`                                                                             |
+|     BuildHead      | True       | `^\s*0 warning\(s\)\s*$`                                                                           |
+|     BuildHead      | True       | `0 failed\|Succeeded`                                                                              |
+|      LogError      | True       | `(\W\|^)^(?!.*warning\s(BC\|CS\|CA)\d+:).*((?<!/)error\|fail\|crit\|failed\|exception)[^\w\.\-\+]` |
+|      LogError      | True       | `(exception:\|stack trace:)`                                                                       |
+|      LogError      | True       | `^\s+at\s`                                                                                         |
+|     LogWarning     | True       | `(\W\|^)(warning\|warn)\W`                                                                         |
+|   LogInformation   | True       | `(\W\|^)(information\|info)\W`                                                                     |
+|      LogError      | True       | `Could not find file`                                                                              |
+|      LogError      | True       | `failed`                                                                                           |
 
 0. `"\+\+\+\>",LogCustom1,False`
 1. `".*[t|c]sc\.exe.*",BuildText,False`
