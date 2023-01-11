@@ -77,11 +77,25 @@
                 </DefaultShortcuts>
                 <ShortcutsScheme>Emacs</ShortcutsScheme>
                 <UserShortcuts>
+                    <RemoveShortcut Command="File.NewFile" Scope="全体">Ctrl+N</RemoveShortcut>
+                    <RemoveShortcut Command="File.Print" Scope="全体">Ctrl+P</RemoveShortcut>
+                    <RemoveShortcut Command="View.QuickActions" Scope="テキスト エディター">Ctrl+.</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.SelectToLastGoBack" Scope="テキスト エディター">Ctrl+;</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.ToggleBlockComment" Scope="テキスト エディター">Ctrl+Shift+/</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.DocumentEnd" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">End</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.DocumentStart" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Home</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.CompleteWord" Scope="テキスト エディター">Alt+/</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsSplitVertical" Scope="テキスト エディター">Ctrl+X, 2</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.DocumentEndExtend" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Shift+End</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.DocumentStartExtend" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Shift+Home</RemoveShortcut>
+                    <RemoveShortcut Command="File.OpenFile" Scope="テキスト エディター">Ctrl+X, Ctrl+F</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsOtherWindow" Scope="テキスト エディター">Ctrl+X, O</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsWordNext" Scope="テキスト エディター">Alt+Right Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsWordPrevious" Scope="テキスト エディター">Alt+Left Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.Undo" Scope="テキスト エディター">Ctrl+Shift+-</RemoveShortcut>
                     <Shortcut Command="Edit.Redo" Scope="全体">Alt+/</Shortcut>
                     <Shortcut Command="Edit.SelectAll" Scope="全体">Ctrl+A</Shortcut>
                     <Shortcut Command="Edit.DeleteBackwards" Scope="全体">Ctrl+H</Shortcut>
-                    <RemoveShortcut Command="File.NewFile" Scope="全体">Ctrl+N</RemoveShortcut>
-                    <RemoveShortcut Command="File.Print" Scope="全体">Ctrl+P</RemoveShortcut>
                     <Shortcut Command="Edit.Redo" Scope="全体">Ctrl+Shift+/</Shortcut>
                     <Shortcut Command="Window.PreviousTab" Scope="全体">Ctrl+Shift+Tab</Shortcut>
                     <Shortcut Command="Window.NextTab" Scope="全体">Ctrl+Tab</Shortcut>
@@ -92,11 +106,8 @@
                     <Shortcut Command="Edit.FormatSelection" Scope="全体">Shift+Alt+K</Shortcut>
                     <Shortcut Command="Edit.FindAllReferences" Scope="全体">Shift+F12</Shortcut>
                     <Shortcut Command="Edit.CompleteWord" Scope="全体">Shift+Space</Shortcut>
-                    <RemoveShortcut Command="View.QuickActions" Scope="テキスト エディター">Ctrl+.</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.SelectToLastGoBack" Scope="テキスト エディター">Ctrl+;</RemoveShortcut>
                     <Shortcut Command="Edit.LineDown" Scope="テキスト エディター">Ctrl+N</Shortcut>
                     <Shortcut Command="Edit.LineUp" Scope="テキスト エディター">Ctrl+P</Shortcut>
-                    <RemoveShortcut Command="Edit.ToggleBlockComment" Scope="テキスト エディター">Ctrl+Shift+/</RemoveShortcut>
                     <Shortcut Command="Edit.LineDownExtendColumn" Scope="テキスト エディター">Ctrl+Shift+Alt+Down Arrow</Shortcut>
                     <Shortcut Command="Edit.LineUpExtendColumn" Scope="テキスト エディター">Ctrl+Shift+Alt+Up Arrow</Shortcut>
                     <Shortcut Command="Edit.LineEnd" Scope="テキスト エディター">End</Shortcut>
@@ -104,33 +115,23 @@
                     <Shortcut Command="Edit.NextHighlightedReference" Scope="テキスト エディター">F3</Shortcut>
                     <Shortcut Command="Edit.LineStart" Scope="テキスト エディター">Home</Shortcut>
                     <Shortcut Command="Edit.PreviousHighlightedReference" Scope="テキスト エディター">Shift+F3</Shortcut>
-                    <RemoveShortcut Command="Edit.DocumentEnd" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">End</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.DocumentStart" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Home</RemoveShortcut>
                     <Shortcut Command="Edit.ToggleComment" Scope="全体">Ctrl+;</Shortcut>
                     <Shortcut Command="Edit.ToggleCommentDouble" Scope="全体">Ctrl+Shift+;</Shortcut>
-                    <RemoveShortcut Command="Edit.CompleteWord" Scope="テキスト エディター">Alt+/</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.EmacsSplitVertical" Scope="テキスト エディター">Ctrl+X, 2</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.DocumentEndExtend" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Shift+End</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.DocumentStartExtend" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Shift+Home</RemoveShortcut>
                     <Shortcut Command="Edit.LineStartExtend" Scope="テキスト エディター">Shift+Home</Shortcut>
                     <Shortcut Command="Edit.LineEndExtend" Scope="テキスト エディター">Shift+End</Shortcut>
                     <Shortcut Command="Edit.GoToFile" Scope="全体">Ctrl+X, Ctrl+F</Shortcut>
-                    <RemoveShortcut Command="File.OpenFile" Scope="テキスト エディター">Ctrl+X, Ctrl+F</RemoveShortcut>
                     <Shortcut Command="Edit.InsertSnippet" Scope="全体">Ctrl+X, Ctrl+Y</Shortcut>
                     <Shortcut Command="Edit.SelectionCancel" Scope="テキスト エディター">Ctrl+G</Shortcut>
                     <Shortcut Command="Edit.SelectionCancel" Scope="マネージド リソース エディター">Ctrl+G</Shortcut>
                     <Shortcut Command="Edit.SelectionCancel" Scope="設定デザイナー">Ctrl+G</Shortcut>
                     <Shortcut Command="Window.ActivateDocumentWindow" Scope="全体">Ctrl+G</Shortcut>
                     <Shortcut Command="Edit.DeleteToBOL" Scope="テキスト エディター">Ctrl+U</Shortcut>
-                    <RemoveShortcut Command="Edit.EmacsOtherWindow" Scope="テキスト エディター">Ctrl+X, O</RemoveShortcut>
                     <Shortcut Command="Window.NextDocumentWindow" Scope="全体">Ctrl+X, O</Shortcut>
                     <Shortcut Command="Window.NewWindow" Scope="全体">Ctrl+X, Ctrl+V</Shortcut>
                     <Shortcut Command="Edit.EmacsLineStart" Scope="テキスト エディター">Ctrl+A</Shortcut>
-                    <RemoveShortcut Command="Edit.EmacsWordNext" Scope="テキスト エディター">Alt+Right Arrow</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.EmacsWordPrevious" Scope="テキスト エディター">Alt+Left Arrow</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.Undo" Scope="テキスト エディター">Ctrl+Shift+-</RemoveShortcut>
                     <Shortcut Command="View.NavigateForward" Scope="全体">Alt+Right Arrow</Shortcut>
                     <Shortcut Command="View.NavigateBackward" Scope="全体">Alt+Left Arrow</Shortcut>
+                    <RemoveShortcut Command="File.Exit" Scope="全体">Ctrl+X, Ctrl+C</RemoveShortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
