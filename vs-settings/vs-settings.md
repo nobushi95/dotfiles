@@ -5,9 +5,10 @@
 - [Visual Stduio に行った設定もろもろ](#visual-stduio-に行った設定もろもろ)
   - [1. フォント](#1-フォント)
   - [2. 設定](#2-設定)
-  - [3. キーバインド](#3-キーバインド)
-  - [4. 拡張機能](#4-拡張機能)
-    - [4.1. VSColorOutput64](#41-vscoloroutput64)
+  - [3. 画面構成](#3-画面構成)
+  - [4. キーバインド](#4-キーバインド)
+  - [5. 拡張機能](#5-拡張機能)
+    - [5.1. VSColorOutput64](#51-vscoloroutput64)
 
 <!-- /TOC -->
 
@@ -21,6 +22,7 @@
 | テキストエディター | HackGen               |   12   | スケール93% |
 | ターミナル         | HackGen35 Console NFJ |   10   |             |
 | 出力ウィンドウ     | Cascadia Code         |   10   |             |
+| CodeLens           | HackGen35 Console NFJ |   10   |             |
 
 ## 2. 設定
 
@@ -42,8 +44,42 @@
     - インデントのサイズ：4
     - タブの保持(C++のみ)
     - 空白の挿入(C++以外)
+  - XML
+    - 全般
+      - 行番号：チェック
+  - C/C++
+    - コードスタイル
+      - 書式設定
+        - インデント
+          - caseの内容をインデントする：チェック
+          - caseラベルをインデントする：チェック
+        - 改行
+          - 名前空間の始めかっこの位置：新しい行へ移動
+          - 型の始めかっこの位置：新しい行へ移動
+          - 関数の始めかっこの位置：新しい行へ移動
+          - コントロール ブロックの始めかっこの位置：新しい行へ移動
+          - ラムダの始めかっこの位置：新しい行へ移動
+          - 範囲の左中かっこの位置：別の行に中かっこを配置する（チェック）
 
-## 3. キーバインド
+## 3. 画面構成
+
+- Left
+  - Top
+    - ソリューションエクスプローラー
+    - ドキュメントアウトライン
+    - リソースビュー
+    - Git 変更
+  - Bottom
+  - プロパティ
+- Bottom
+  - 出力
+  - エラー一覧
+  - 開発者用PowerShell
+  - ブレークポイント
+  - テストエクスプローラー
+  - シンボルの検索結果
+
+## 4. キーバインド
 
 | key                         | コマンド                                            | 使用する場所                                                   | 削除 | 備考                        |
 | :-------------------------- | :-------------------------------------------------- | :------------------------------------------------------------- | :--: | :-------------------------- |
@@ -103,7 +139,7 @@
 | Alt + 右矢印                | 表示.次へ                                           | 全体                                                           |  〇  |                             |
 | Alt + 右矢印                | 編集.Emacsの次の単語へ移動                          | テキストエディター                                             |  〇  |                             |
 
-## 4. 拡張機能
+## 5. 拡張機能
 
 - Visafora
   - キーワードハイライトをOFF
@@ -125,9 +161,26 @@
 - Microsoft Visual Studio Installer Projects 2022
 - ResXManager
 
-### 4.1. VSColorOutput64
+### 5.1. VSColorOutput64
 
 RegEx Patterns デフォルト値
+
+| ClassificationType | IgnoreCase | RegExPattern                                                                                |
+| :----------------: | ---------- | ------------------------------------------------------------------------------------------- |
+|     LogCustom1     | False      | `\+\+\+\>`                                                                                  |
+|     BuildText      | False      | `.*[t|c]sc\.exe.*`                                                                          |
+|     BuildHead      | False      | `(=====|-----|Projects build report|Status    \| Project \[Config\|platform\])`             |
+|     BuildHead      | True       | `0 error.+0 warning`                                                                        |
+|     BuildHead      | True       | `^\s*0 error\(s\)\s*$`                                                                      |
+|     BuildHead      | True       | `^\s*0 warning\(s\)\s*$`                                                                    |
+|     BuildHead      | True       | `0 failed|Succeeded`                                                                        |
+|      LogError      | True       | `(\W|^)^(?!.*warning\s(BC|CS|CA)\d+:).*((?<!/)error|fail|crit|failed|exception)[^\w\.\-\+]` |
+|      LogError      | True       | `(exception:|stack trace:)`                                                                 |
+|      LogError      | True       | `^\s+at\s`                                                                                  |
+|     LogWarning     | True       | `(\W|^)(warning|warn)\W`                                                                    |
+|   LogInformation   | True       | `(\W|^)(information|info)\W`                                                                |
+|      LogError      | True       | `Could not find file`                                                                       |
+|      LogError      | True       | `failed`                                                                                    |
 
 0. `"\+\+\+\>",LogCustom1,False`
 1. `".*[t|c]sc\.exe.*",BuildText,False`
