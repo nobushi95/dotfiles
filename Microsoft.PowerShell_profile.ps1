@@ -78,3 +78,11 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 
 # コンソールのエンコードをUTF-8にする
 [System.Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+
+# PowerShell parameter completion shim for the dotnet CLI
+Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
+    param($commandName, $wordToComplete, $cursorPosition)
+    dotnet complete --position $cursorPosition "$wordToComplete" | ForEach-Object {
+        [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+    }
+}
