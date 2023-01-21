@@ -47,7 +47,7 @@ function _pip_completion {
 }
 compctl -K _pip_completion pip3
 
-# zsh parameter completion for the dotnet CLI
+# zsh parameter completion for the dotnet CLI for Mac
 _dotnet_zsh_complete() 
 {
   local completions=("$(dotnet complete "$words")")
@@ -60,7 +60,7 @@ _dotnet_zsh_complete()
   fi
 
   # This is not a variable assignment, don't remove spaces!
-  _values = "${(ps:\n:)completions}"
+  reply=( "${(ps:\n:)completions}" )
 }
 
-compdef _dotnet_zsh_complete dotnet
+compctl -K _dotnet_zsh_complete dotnet
