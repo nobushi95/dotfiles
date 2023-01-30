@@ -163,6 +163,8 @@
 
 ### 5.1. VSColorOutput64
 
+設定ファイル：%AppData%/VSColorOutput64/vscoloroutput.json
+
 RegEx Patterns デフォルト値
 
 | No. | ClassificationType | IgnoreCase | RegExPattern                                                                                       |
