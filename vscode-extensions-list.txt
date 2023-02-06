@@ -27,6 +27,7 @@ fernandoescolar.vscode-solution-explorer
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
+formulahendry.dotnet-test-explorer
 Fudge.auto-using
 golang.go
 GrapeCity.gc-excelviewer
@@ -97,6 +98,7 @@ tomoki1207.pdf
 tomoki1207.vscode-input-sequence
 tuttieee.emacs-mcx
 uctakeoff.vscode-counter
+unoplatform.vscode
 usernamehw.errorlens
 vadimcn.vscode-lldb
 vincaslt.highlight-matching-tag
@@ -111,6 +113,7 @@ wayou.vscode-todo-highlight
 willasm.rc-script
 wingrunr21.vscode-ruby
 xdebug.php-debug
+yy0931.vscode-sqlite3-editor
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
 zhuangtongfa.material-theme
