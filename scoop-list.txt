@@ -15,6 +15,7 @@ llvm
 oh-my-posh
 openjdk
 posh-git
+python
 scoop-completion
 sqlitebrowser
 sudo
