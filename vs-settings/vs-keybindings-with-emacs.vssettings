@@ -132,6 +132,7 @@
                     <Shortcut Command="View.NavigateForward" Scope="全体">Alt+Right Arrow</Shortcut>
                     <Shortcut Command="View.NavigateBackward" Scope="全体">Alt+Left Arrow</Shortcut>
                     <RemoveShortcut Command="File.Exit" Scope="全体">Ctrl+X, Ctrl+C</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.EmacsQuotedInsert" Scope="テキスト エディター">Ctrl+Q</RemoveShortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
