@@ -161,6 +161,7 @@
 - File Path On Fotter
 - Microsoft Visual Studio Installer Projects 2022
 - ResXManager
+- CppTripleSlash
 
 ### 5.1. VSColorOutput64
 
