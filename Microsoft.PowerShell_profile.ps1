@@ -86,3 +86,6 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
         [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
     }
 }
+
+# openssl for rust
+$env:OPENSSL_NO_VENDOR = "1"
