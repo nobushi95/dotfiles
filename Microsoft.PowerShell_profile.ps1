@@ -88,4 +88,4 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 }
 
 # openssl for rust
-$env:OPENSSL_NO_VENDOR = "1"
+# $env:OPENSSL_NO_VENDOR = "1"
