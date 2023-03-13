@@ -1,4 +1,6 @@
+adwaita-icon-theme
 aom
+atk
 bat
 bdw-gc
 brotli
@@ -23,9 +25,12 @@ go
 gobject-introspection
 graphite2
 graphviz
+gsettings-desktop-schemas
+gtk+3
 gts
 guile
 harfbuzz
+hicolor-icon-theme
 highway
 icu4c
 imath
@@ -38,6 +43,7 @@ jpeg-xl
 jq
 krb5
 libavif
+libepoxy
 libevent
 libffi
 libidn2
@@ -80,6 +86,7 @@ pixman
 pkg-config
 plantuml
 python@3.10
+python@3.11
 python@3.9
 readline
 sqlite
