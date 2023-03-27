@@ -70,7 +70,7 @@
     - リソースビュー
     - Git 変更
   - Bottom
-  - プロパティ
+    - プロパティ
 - Bottom
   - 出力
   - エラー一覧
@@ -158,10 +158,18 @@
     - c, cpp, h, hpp
   - Color Swatcher を "ColorBox-Left"に設定
 - Format on Save for VS2022
+  - [Fromat document] -> [Denied extensions..]
+    - `.csproj .wapproj .shproj`
 - File Path On Fotter
 - Microsoft Visual Studio Installer Projects 2022
 - ResXManager
 - CppTripleSlash
+- CleanBinAndObj
+- Color Picker (x64)
+- Customize VS Window Title
+  - 表示設定
+    - `[solutionName] - [projectName]`
+- Restart Visual Studio for vs2022
 
 ### 5.1. VSColorOutput64
 
