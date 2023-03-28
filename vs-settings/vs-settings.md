@@ -35,15 +35,19 @@
       - 既存のタブの右側に新しいタブを挿入する
       - タブの最大値：500
       - 複数の行にタブを表示する
-      - ドキュメントタブの色分け基準
+      - ~~ドキュメントタブの色分け基準~~
+        - Dark+ V2 テーマにて適用解除
 - テキストエディター
   - C/C++,C#,XML,XAML
     - インデント
       - スマート
     - タブのサイズ：4
+      - XMLのみ2
     - インデントのサイズ：4
-    - タブの保持(C++のみ)
-    - 空白の挿入(C++以外)
+      - XMLのみ2
+    - ~~タブの保持(C++のみ)~~
+    - 空白の挿入 ~~(C++以外)~~
+      - C++も空白の挿入に変更
   - XML
     - 全般
       - 行番号：チェック
@@ -143,8 +147,10 @@
 ## 5. 拡張機能
 
 - Visafora
-  - キーワードハイライトをOFF
+  - [General] -> [Keyword Highlight]をすべてFalse
+  - [Rainbow Brace] -> [Rainbow Depth]を6に設定
   - braceの色付けをVSCodeと同じRainbowに変更
+    - 6色まででよい
 - Toggle Comment 2022
   - Ctrl + ;とCtrl + Shift + ;に割り当て
 - VSColorOutput64
@@ -161,11 +167,11 @@
   - [Fromat document] -> [Denied extensions..]
     - `.csproj .wapproj .shproj`
 - File Path On Fotter
+  - Customize VS Window Title でも代替できそう
 - Microsoft Visual Studio Installer Projects 2022
 - ResXManager
 - CppTripleSlash
 - CleanBinAndObj
-- Color Picker (x64)
 - Customize VS Window Title
   - 表示設定
     - `[solutionName] - [projectName]`
