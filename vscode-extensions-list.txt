@@ -30,6 +30,7 @@ formulahendry.auto-rename-tag
 formulahendry.code-runner
 formulahendry.dotnet-test-explorer
 Fudge.auto-using
+GitHub.remotehub
 golang.go
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
@@ -61,8 +62,14 @@ ms-toolsai.jupyter-renderers
 ms-toolsai.vscode-jupyter-cell-tags
 ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-wsl
+ms-vscode.azure-repos
+ms-vscode.cmake-tools
 ms-vscode.cpptools
+ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
+ms-vscode.powershell
+ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 msjsdiag.vscode-react-native
 mushan.vscode-paste-image
@@ -99,6 +106,7 @@ tombonnike.vscode-status-bar-format-toggle
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
 tuttieee.emacs-mcx
+twxs.cmake
 uctakeoff.vscode-counter
 unoplatform.vscode
 usernamehw.errorlens
@@ -111,6 +119,7 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
+vscodevim.vim
 wayou.vscode-todo-highlight
 willasm.rc-script
 wingrunr21.vscode-ruby
