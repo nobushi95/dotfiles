@@ -39,6 +39,7 @@
                         </Items>
                     </Category>
                     <Category GUID="{FC88969A-CBED-4940-8F48-142A503E2381}" FontName="HackGen35 Console NFJ" FontSize="10" CharSet="128" FontIsDefault="No">
+                        <!-- Dark+ V2用インジケーターテキスト設定 -->
                         <Items>
                             <Item Name="IndicatorTextDisabled" Foreground="0x00CCCCCC" Background="0x01000018" BoldFont="No"/>
                             <Item Name="IndicatorTextHovered" Foreground="0x00F1F1F1" Background="0x01000018" BoldFont="No"/>
