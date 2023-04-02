@@ -146,36 +146,35 @@
 
 ## 5. 拡張機能
 
+- CleanBinAndObj
+- Color Picker (x64)
+  - 拡張子を追加
+    - c, cpp, h, hpp
+  - Color Swatcher を "ColorBox-Left"に設定
+- CppTripleSlash
+- Customize VS Window Title
+  - 表示設定
+    - `[solutionName] - [projectName]`
+- File Path On Fotter
+  - Customize VS Window Title でも代替できそう
+- Format on Save for VS2022
+  - [Fromat document] -> [Denied extensions..]
+    - `.csproj .wapproj .shproj`
+- Open in Visual Stduio Code
+- Restart Visual Studio for vs2022
+- ResXManager
+- Solution Error Visualizer 2022
+- Toggle Comment 2022
+  - Ctrl + ;とCtrl + Shift + ;に割り当て
 - Visafora
   - [General] -> [Keyword Highlight]をすべてFalse
   - [Rainbow Brace] -> [Rainbow Depth]を6に設定
   - braceの色付けをVSCodeと同じRainbowに変更
     - 6色まででよい
-- Toggle Comment 2022
-  - Ctrl + ;とCtrl + Shift + ;に割り当て
-- VSColorOutput64
-  - [ツール] -> [オプション] から"Build Text"を"Silver"に変更
-- Solution Error Visualizer 2022
 - Visual Studio Theme Pack
   - テーマ：Dark+
-- Open in Visual Stduio Code
-- Color Picker (x64)
-  - 拡張子を追加
-    - c, cpp, h, hpp
-  - Color Swatcher を "ColorBox-Left"に設定
-- Format on Save for VS2022
-  - [Fromat document] -> [Denied extensions..]
-    - `.csproj .wapproj .shproj`
-- File Path On Fotter
-  - Customize VS Window Title でも代替できそう
-- Microsoft Visual Studio Installer Projects 2022
-- ResXManager
-- CppTripleSlash
-- CleanBinAndObj
-- Customize VS Window Title
-  - 表示設定
-    - `[solutionName] - [projectName]`
-- Restart Visual Studio for vs2022
+- VSColorOutput64
+  - [ツール] -> [オプション] から"Build Text"を"Silver"に変更
 
 ### 5.1. VSColorOutput64
 
