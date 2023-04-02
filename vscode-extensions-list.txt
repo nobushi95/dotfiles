@@ -19,6 +19,7 @@ DotJoshJohnson.xml
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 ecmel.vscode-html-css
+EditorConfig.EditorConfig
 emilast.LogFileHighlighter
 esbenp.prettier-vscode
 eservice-online.vs-sharper
