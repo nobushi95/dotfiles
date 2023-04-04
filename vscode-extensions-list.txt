@@ -66,6 +66,7 @@ ms-vscode-remote.remote-wsl
 ms-vscode.azure-repos
 ms-vscode.cmake-tools
 ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
 ms-vscode.powershell
