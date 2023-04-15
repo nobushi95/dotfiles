@@ -37,9 +37,12 @@ Gruntfuggly.todo-tree
 hbenl.vscode-mocha-test-adapter
 hbenl.vscode-test-explorer
 hediet.vscode-drawio
+humao.rest-client
+IBM.output-colorizer
 icrawl.discord-vscode
 janisdd.vscode-edit-csv
 jebbs.plantuml
+jrebocho.vscode-random
 kevin-chatham.aspnetcorerazor-html-css-class-completion
 kreativ-software.csharpextensions
 lacroixdavid1.vscode-format-context-menu
@@ -93,6 +96,7 @@ ryu1kn.partial-diff
 ryuta46.multi-command
 scala-lang.scala
 serayuzgur.crates
+shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
 streetsidesoftware.code-spell-checker
