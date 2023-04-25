@@ -161,7 +161,7 @@
   - Customize VS Window Title でも代替できそう
 - Format on Save for VS2022
   - [Fromat document] -> [Denied extensions..]
-    - `.csproj .wapproj .shproj`
+    - `.csproj .wapproj .shproj .Designer.cs .vcxproj .vcxproj.filter`
 - Open in Visual Stduio Code
 - Restart Visual Studio for vs2022
 - ResXManager
