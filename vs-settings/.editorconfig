@@ -9,7 +9,12 @@ end_of_line = crlf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{csproj,shproj,wapproj,vcxproj,vcxproj.filters}]
+[*.{wapproj, vcxproj}]
+charset = utf-8
+indent_size = 2
+tab_width = 2
+
+[*.{csproj,shproj,vcxproj.filters}]
 indent_size = 2
 tab_width = 2
 
