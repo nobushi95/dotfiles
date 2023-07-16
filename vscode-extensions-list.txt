@@ -5,6 +5,7 @@ alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
+bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
@@ -134,3 +135,4 @@ yy0931.vscode-sqlite3-editor
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
 zhuangtongfa.material-theme
+Zignd.html-css-class-completion
