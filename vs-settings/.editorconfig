@@ -98,7 +98,7 @@ cpp_wrap_preserve_blocks = one_liners
 
 # using の整理
 dotnet_separate_import_directive_groups = false
-dotnet_sort_system_directives_first = false
+dotnet_sort_system_directives_first = true
 file_header_template = unset
 
 # this. と Me. の設定
