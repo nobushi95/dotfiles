@@ -55,8 +55,11 @@ mosapride.zenkaku
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
 ms-dotnettools.blazorwasm-companion
+ms-dotnettools.csdevkit
 ms-dotnettools.csharp
+ms-dotnettools.dotnet-maui
 ms-dotnettools.vscode-dotnet-runtime
+ms-dotnettools.vscodeintellicode-csharp
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
