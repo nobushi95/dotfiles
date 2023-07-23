@@ -19,6 +19,7 @@
 	br = branch
 	cm = commit
 	co = checkout
+	sw = switch
 	cp = cherry-pick
 	gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 	graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
