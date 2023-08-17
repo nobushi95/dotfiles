@@ -1,0 +1,213 @@
+{
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+
+  // editor font
+  "editor.fontFamily": "'UDEV Gothic', Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "HackGen, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "'Ricty Diminished', Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "SF Mono Square, MyricaM M, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "SF Mono Square, MyricaM M, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "MyricaM M, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "Menlo, Osaka-Mono, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "Osaka-Mono, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "Source Han mono, Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "'Source Han Code JP', Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "'源ノ角ゴシック Code JP', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 16, // フォントサイズ+1が目安
+
+  // terminal font
+  // "terminal.integrated.fontFamily": "MesloLGS NF", // for powerlelvel10k theme
+  // "terminal.integrated.fontFamily": "HackGen35 Console NFJ",
+  "terminal.integrated.fontFamily": "'UDEV Gothic 35NFLG'",
+  "terminal.integrated.fontSize": 13,
+
+  // debug console font
+  "debug.console.fontSize": 13,
+
+  // editor
+  "editor.suggestSelection": "first",
+  "editor.renderWhitespace": "boundary",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.minimap.maxColumn": 60,
+  "editor.minimap.showSlider": "always",
+
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // xaml ファイルの折りたたみ
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+	  "*.xaml": "$(capture).xaml.cs"
+  },
+
+  // draw-io
+  "hediet.vscode-drawio.theme": "atlas",
+
+  // workbench
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  // bracket colorization
+  "editor.guides.bracketPairs": true,
+
+  // one dark pro
+  // "oneDarkPro.vivid": true,
+  // "oneDarkPro.italic": false,
+  "oneDarkPro.bold": true,
+
+  // ワークベンチカラー設定
+  "workbench.colorCustomizations": {
+    // for One Dark Pro Darker
+    "minimapSlider.background": "#ffffff17",
+    "minimapSlider.hoverBackground": "#ffffff1b",
+    "minimapSlider.activeBackground": "#ffffff20",
+    // for bracket colorization
+    "editorBracketHighlight.foreground1": "#FF7FFF", // 紫
+    "editorBracketHighlight.foreground2": "#3F7FFF", // 青
+    "editorBracketHighlight.foreground3": "#3FFF3F", // 緑
+    "editorBracketHighlight.foreground4": "#FFFF00", // 黄
+    "editorBracketHighlight.foreground5": "#FFBF3F", // 橙
+    "editorBracketHighlight.foreground6": "#FF0000" // 赤
+  },
+
+  // インデントカラー
+  "indentRainbow.colors": [
+    "rgba(128,  64, 128, 0.5)", // 紫
+    "rgba( 32,  64, 128, 0.5)", // 青
+    "rgba( 32, 128,  32, 0.5)", // 緑
+    "rgba(128, 128,  32, 0.5)", // 黄
+    "rgba(128,  96,  32, 0.5)", // 橙
+    "rgba(128,  64,  64, 0.5)" // 赤
+  ],
+
+  "multiCommand.commands": [
+    {
+      "command": "gotoNextCellAndFormat",
+      "sequence": ["text-tables.gotoNextCell", "extension.table.formatCurrent"]
+    },
+    {
+      "command": "gotoPreviousCellAndFormat",
+      "sequence": [
+        "text-tables.gotoPreviousCell",
+        "extension.table.formatCurrent"
+      ]
+    }
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  // Path Intellisense
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
+  // Code Runner
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node"
+  },
+
+  // Prettierをデフォルト設定に
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Formatting Toggleが自動生成
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  // モードごとの設定
+  "[markdown]": {
+    // デフォルト設定？
+    // "editor.unicodeHighlight.ambiguousCharacters": false,
+    // "editor.wordWrap": "on",
+    // "editor.quickSuggestions": false,
+    // フォント設定
+    // "editor.fontFamily": "Ricty Diminished",
+    // "editor.fontFamily": "Osaka-Mono",
+    // "editor.fontFamily": "SF Mono Square",
+    // "editor.fontFamily": "MyricaM M",
+    // "editor.fontSize": 14
+  },
+  "[csv]": {
+    // "editor.fontFamily": "Osaka-Mono",
+    // "editor.fontFamily": "Ricty Diminished",
+    // "editor.fontSize": 14
+  },
+  "[javascript]": {
+    // "editor.maxTokenizationLineLength": 2500
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
+  // C++ インレイヒント
+  // "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  // "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+  // "C_Cpp.inlayHints.parameterNames.enabled": true,
+  // "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  // C# インレイヒント
+  // "csharp.inlayHints.parameters.enabled": true,
+  // "csharp.inlayHints.parameters.forIndexerParameters": true,
+  // "csharp.inlayHints.parameters.forLiteralParameters": true,
+  // "csharp.inlayHints.parameters.forObjectCreationParameters": true,
+  // "csharp.inlayHints.types.forLambdaParameterTypes": true,
+  // "csharp.inlayHints.types.forImplicitVariableTypes": true,
+  // "csharp.inlayHints.types.forImplicitObjectCreation": true,
+  // "csharp.inlayHints.types.enabled": true,
+  // "csharp.inlayHints.parameters.suppressForParametersThatMatchMethodIntent": true,
+  // "csharp.inlayHints.parameters.suppressForParametersThatMatchArgumentName": true,
+  // "csharp.inlayHints.parameters.suppressForParametersThatDifferOnlyBySuffix": true,
+  // "csharp.inlayHints.parameters.forOtherParameters": true,
+  // Go インレイヒント
+  // "go.inlayHints.assignVariableTypes": true,
+  // "go.inlayHints.compositeLiteralFields": true,
+  // "go.inlayHints.rangeVariableTypes": true,
+  // "go.inlayHints.parameterNames": true,
+  // "go.inlayHints.functionTypeParameters": true,
+  // "go.inlayHints.compositeLiteralTypes": true,
+  // "go.inlayHints.constantValues": true,
+  // Python インレイヒント
+  // "python.analysis.inlayHints.functionReturnTypes": true,
+  // "python.analysis.inlayHints.variableTypes": true,
+  // TypeScript インレイヒント
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
+  // JavaScript インレイヒント
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "javascript.inlayHints.enumMemberValues.enabled": true,
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "javascript.inlayHints.variableTypes.enabled": true,
+
+  // "workbench.experimental.layoutControl.enabled": true,
+  // "workbench.experimental.layoutControl.type": "both",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "rpc.appName": "Visual Studio Code",
+  "go.toolsManagement.autoUpdate": true,
+  "window.commandCenter": true,
+  "editor.stickyScroll.enabled": true,
+
+  // dotnet test explorer
+  "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
+  "tabnine.experimentalAutoImports": true,
+  "git.openRepositoryInParentFolders": "always",
+  "redhat.telemetry.enabled": false
+}
