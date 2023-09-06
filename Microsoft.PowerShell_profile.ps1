@@ -10,6 +10,7 @@ Set-Alias ll ls
 Set-Alias la ls
 Set-Alias lla ls
 Set-Alias open Invoke-Item
+Set-Alias pbcopy Set-Clipboard
 
 ## VSCode
 function code-r { code -r $args }
