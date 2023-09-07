@@ -134,6 +134,7 @@
                     <RemoveShortcut Command="File.Exit" Scope="全体">Ctrl+X, Ctrl+C</RemoveShortcut>
                     <RemoveShortcut Command="Edit.EmacsQuotedInsert" Scope="テキスト エディター">Ctrl+Q</RemoveShortcut>
                     <Shortcut Command="Build.BuildSelection" Scope="全体">F7</Shortcut>
+                    <Shortcut Command="Edit.EmacsWordDeleteToStart" Scope="テキスト エディター">Alt+H</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
