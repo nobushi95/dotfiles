@@ -1,0 +1,274 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    // redo
+    {
+        "key": "alt+/",
+        "command": "redo",
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "redo"
+    },
+    // ctrl + u：カーソルから先頭まで削除
+    {
+        "key": "ctrl+u",
+        "command": "deleteAllLeft"
+    },
+    // 拡大表示
+    // before: ctrl + ;
+    // after : ctrl + shift + ;
+    {
+        "key": "shift+ctrl+oem_plus",
+        "command": "workbench.action.zoomIn",
+    },
+    {
+        "key": "shift+ctrl+;",
+        "command": "workbench.action.zoomIn",
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "-workbench.action.zoomIn"
+    },
+    // コメントアウト
+    // before : ctrl + /
+    // after  : ctrl + ;
+    {
+        "key": "ctrl+oem_plus",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_2",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // タブ切り替えを変更
+    // ctrl + tab：次のタブ
+    // ctrl + shift + tab：前のタブ
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    // 補完表示トリガーを変更
+    // before: ctrl + space
+    // after : shift + space
+    {
+        "key": "shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    // ctrl + k：ターミナルでも有効化
+    {
+        "key": "ctrl+k",
+        "command": "emacs-mcx.killLine",
+        "when": "terminalFocus"
+    },
+    // ターミナル切替からフォーカス移動に変更
+    // ctrl + @：ターミナルにフォーカスを移動
+    {
+        "key": "ctrl+oem_3",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+@",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+@",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorFocus"
+    },
+    // plantUMLのプレビュー表示を変更
+    // before: alt + d
+    // after : ctrl + shift + v
+    {
+        "key": "ctrl+shift+v",
+        "command": "plantuml.preview",
+        "when": "!notebookEditorFocused && editorLangId == 'plantuml'"
+    },
+    {
+        "key": "alt+d",
+        "command": "-plantuml.preview"
+    },
+    // シンボルの移動（前方）を変更
+    // before: f7
+    // after : f3
+    {
+        "key": "f3",
+        "command": "editor.action.wordHighlight.next",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "f7",
+        "command": "-editor.action.wordHighlight.next",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "f3",
+        "command": "editor.action.diffReview.next",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f7",
+        "command": "-editor.action.diffReview.next",
+        "when": "isInDiffEditor"
+    },
+    // シンボルの移動（後方）を変更
+    // before : shift + f7
+    // after  : shift + f3
+    {
+        "key": "shift+f3",
+        "command": "editor.action.wordHighlight.prev",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-editor.action.wordHighlight.prev",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "shift+f3",
+        "command": "editor.action.diffReview.prev",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-editor.action.diffReview.prev",
+        "when": "isInDiffEditor"
+    },
+    // フォーカスワードの検索（ターミナル・エディタ）の削除
+    // remove: f3
+    // remove: shift + f3
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "f3",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+f3",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    // ビルドタスクの実行の変更
+    // before : ctrl + shift + b
+    // after  : f7
+    {
+        "key": "f7",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+    // サイドバーの表示の切り替えの変更
+    // befeore : ctrl + b
+    // after  : ctrl + shift + b
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    // Markdown Preview Enhanced プレビューを横に表示の変更
+    // before : ctrl + k v
+    // after  : ctrl + shift + v
+    // {
+    //     "key": "ctrl+shift+v",
+    //     "command": "markdown-preview-enhanced.openPreviewToTheSide",
+    //     "when": "editorLangId == 'markdown'"
+    // },
+    // {
+    //     "key": "ctrl+k v",
+    //     "command": "-markdown-preview-enhanced.openPreviewToTheSide",
+    //     "when": "editorLangId == 'markdown'"
+    // },
+    // {
+    //     "key": "shift+alt+k",
+    //     "command": "editor.action.formatSelection",
+    //     "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    // },
+    // デフォルトのMarkdown Previewを横に表示
+    {
+        "key": "ctrl+shift+v",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k ctrl+f",
+        "command": "-editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    // git 選択範囲のステージング
+    {
+        "key": "ctrl+x ctrl+q",
+        "command": "git.stageSelectedRanges",
+        "when": "isInDiffEditor && !operationInProgress"
+    },
+    {
+        "key": "ctrl+x ctrl+z",
+        "command": "git.unstageSelectedRanges",
+        "when": "isInDiffEditor && !operationInProgress"
+    },
+    // alt + h で kill-word
+    {
+        "key": "alt+h",
+        "command": "emacs-mcx.backwardKillWord",
+        "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd && !editorReadonly"
+    },
+    {
+        "key": "alt+h",
+        "command": "emacs-mcx.backwardKillWord",
+        "when": "config.emacs-mcx.useMetaPrefixMacCmd && editorTextFocus && !editorReadonly"
+    },
+    // EOF
+]

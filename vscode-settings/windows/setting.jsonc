@@ -1,0 +1,165 @@
+{
+    // workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.wrapTabs": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.accessibilitySupport": "off",
+    // "editor.suggestSelection": "first",
+    // フォント1
+    // "editor.fontFamily": "HackGen ,Consolas, 'Courier New'",
+    // "editor.fontSize": 15,
+    // "editor.lineHeight": 16,
+    // フォント2
+    "editor.fontFamily": "'UDEV Gothic' ,Consolas, 'Courier New'",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 16,
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "same",
+    "hediet.vscode-drawio.theme": "atlas",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "workbench.colorTheme": "One Dark Pro Darker",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.editorTheme": "One Dark Pro Darker",
+    "editor.suggestSelection": "first",
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.showSlider": "always",
+    "workbench.colorCustomizations": {
+        // One Dark Pro 用サイドバー色設定
+        // "minimapSlider.background": "#ffffff17",
+        // "minimapSlider.hoverBackground": "#ffffff1b",
+        // "minimapSlider.activeBackground": "#ffffff20",
+        // for bracket colorization
+        "editorBracketHighlight.foreground1": "#FF7FFF",
+        "editorBracketHighlight.foreground2": "#3F7FFF",
+        "editorBracketHighlight.foreground3": "#3FFF3F",
+        "editorBracketHighlight.foreground4": "#FFFF00",
+        "editorBracketHighlight.foreground5": "#FFBF3F",
+        "editorBracketHighlight.foreground6": "#FF0000"
+    },
+    "terminal.integrated.fontSize": 13,
+    // "terminal.integrated.fontFamily": "MesloLGS NF",
+    // "terminal.integrated.fontFamily": "HackGen35 Console NF",
+    "terminal.integrated.fontFamily": "'UDEV Gothic 35NFLG'",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.layoutControl.enabled": true,
+    "workbench.layoutControl.type": "both",
+    // Formatting Toggle
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[json]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[html]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    // XAML用エクスプローラー折り畳み
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.xaml": "$(capture).xaml.cs"
+    },
+    // // JavaScript インレイヒント
+    // "javascript.inlayHints.enumMemberValues.enabled": true,
+    // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    // "javascript.inlayHints.parameterNames.enabled": "all",
+    // "javascript.inlayHints.parameterTypes.enabled": true,
+    // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    // "javascript.inlayHints.variableTypes.enabled": true,
+    // // TypeScript インレイヒント
+    // "typescript.inlayHints.enumMemberValues.enabled": true,
+    // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    // "typescript.inlayHints.parameterNames.enabled": "all",
+    // "typescript.inlayHints.parameterTypes.enabled": true,
+    // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    // "typescript.inlayHints.variableTypes.enabled": true,
+    // // Go インレイヒント
+    // "go.inlayHints.assignVariableTypes": true,
+    // "go.inlayHints.compositeLiteralFields": true,
+    // "go.inlayHints.compositeLiteralTypes": true,
+    // "go.inlayHints.constantValues": true,
+    // "go.inlayHints.parameterNames": true,
+    // "go.inlayHints.rangeVariableTypes": true,
+    // "go.inlayHints.functionTypeParameters": true,
+    // // Python インレイヒント
+    // "python.analysis.inlayHints.variableTypes": true,
+    // "python.analysis.inlayHints.functionReturnTypes": true,
+    // // C# インレイヒント
+    // "csharp.inlayHints.parameters.enabled": true,
+    // "csharp.inlayHints.parameters.forIndexerParameters": true,
+    // "csharp.inlayHints.parameters.forLiteralParameters": true,
+    // "csharp.inlayHints.parameters.forObjectCreationParameters": true,
+    // "csharp.inlayHints.parameters.suppressForParametersThatDifferOnlyBySuffix": true,
+    // "csharp.inlayHints.parameters.forOtherParameters": true,
+    // "csharp.inlayHints.parameters.suppressForParametersThatMatchArgumentName": true,
+    // "csharp.inlayHints.types.enabled": true,
+    // "csharp.inlayHints.types.forImplicitObjectCreation": true,
+    // "csharp.inlayHints.types.forImplicitVariableTypes": true,
+    // "csharp.inlayHints.types.forLambdaParameterTypes": true,
+    // // C++ インレイヒント
+    // "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    // "C_Cpp.inlayHints.parameterNames.enabled": true,
+    // "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    // past image
+    "pasteImage.path": "${currentFileDir}/images",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "files.associations": {
+        "*.vssettings": "xml"
+    },
+    "window.commandCenter": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    // git-graph
+    "git-graph.repository.fetchAndPrune": true,
+    "git-graph.repository.fetchAndPruneTags": true,
+    // .NET Core Test Explorer
+    "dotnet-test-explorer.testProjectPath": "**/*(Test|Tests).@(csproj|vbproj|fsproj)",
+    // vim
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.hlsearch": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    // 親フォルダにgitリポジトリがあるとそこを開く
+    "git.openRepositoryInParentFolders": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emacs-mcx.useMetaPrefixCtrlLeftBracket": true,
+    "formattingToggle.affects": [
+        "editor.formatOnPaste",
+        "editor.formatOnSave",
+        "editor.formatOnType"
+    ],
+}
