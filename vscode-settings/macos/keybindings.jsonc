@@ -236,5 +236,11 @@
     "key": "tab",
     "command": "-markdown.extension.onTabKey",
     "when": "editorTextFocus && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !inlineSuggestionVisible && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  // alt + h: kill-word
+  {
+    "key": "alt+h",
+    "command": "emacs-mcx.backwardKillWord",
+    "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd && !editorReadonly"
   }
 ]

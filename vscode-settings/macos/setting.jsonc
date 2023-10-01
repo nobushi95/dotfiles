@@ -41,7 +41,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-	  "*.xaml": "$(capture).xaml.cs"
+    "*.xaml": "$(capture).xaml.cs"
   },
 
   // draw-io
@@ -144,8 +144,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": ["source.fixAll.eslint"]
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+  },
   "[typescript]": {
-    "editor.tabSize": 2,
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": ["source.fixAll.eslint"]
   },
@@ -200,7 +208,6 @@
   // "workbench.experimental.layoutControl.enabled": true,
   // "workbench.experimental.layoutControl.type": "both",
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "rpc.appName": "Visual Studio Code",
   "go.toolsManagement.autoUpdate": true,
   "window.commandCenter": true,
   "editor.stickyScroll.enabled": true,
@@ -209,5 +216,5 @@
   "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
   "tabnine.experimentalAutoImports": true,
   "git.openRepositoryInParentFolders": "always",
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
 }
