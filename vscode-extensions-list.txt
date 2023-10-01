@@ -105,6 +105,7 @@ shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
 streetsidesoftware.code-spell-checker
+styled-components.vscode-styled-components
 TabNine.tabnine-vscode
 TakumiI.markdown-previewstyle
 TakumiI.markdown-toc-num
