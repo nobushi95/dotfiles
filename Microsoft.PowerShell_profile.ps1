@@ -58,7 +58,8 @@ Import-Module posh-git
 Import-Module Terminal-Icons
 
 # oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\powerlevel10k_rainbow.omp.json" | Invoke-Expression
-oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\takuya.omp.json" | Invoke-Expression
+# oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\takuya.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\multiverse-neon.omp.json" | Invoke-Expression
 
 # PowerShell7
 if (7 -eq $PSVersionTable.PSVersion.Major) {
