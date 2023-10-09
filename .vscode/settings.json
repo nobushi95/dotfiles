@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "**/settings.json": "jsonc",
+    "**/keybindings.json": "jsonc"
+  }
+}
