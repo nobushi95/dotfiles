@@ -121,6 +121,12 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
 
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
   // モードごとの設定
   "[markdown]": {
     // デフォルト設定？
@@ -139,23 +145,22 @@
     // "editor.fontFamily": "Ricty Diminished",
     // "editor.fontSize": 14
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     // "editor.maxTokenizationLineLength": 2500
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     // "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
@@ -216,5 +221,5 @@
   "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
   "tabnine.experimentalAutoImports": true,
   "git.openRepositoryInParentFolders": "always",
-  "redhat.telemetry.enabled": false,
+  "redhat.telemetry.enabled": false
 }
