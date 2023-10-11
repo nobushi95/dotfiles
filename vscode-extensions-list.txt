@@ -45,6 +45,7 @@ janisdd.vscode-edit-csv
 jebbs.plantuml
 jrebocho.vscode-random
 kevin-chatham.aspnetcorerazor-html-css-class-completion
+KoichiSasada.vscode-rdbg
 kreativ-software.csharpextensions
 lacroixdavid1.vscode-format-context-menu
 LeonardSSH.vscord
@@ -92,7 +93,6 @@ patcx.vscode-nuget-gallery
 PKief.material-icon-theme
 pranaygp.vscode-css-peek
 qwtel.sqlite-viewer
-rebornix.ruby
 redhat.java
 ritwickdey.LiveServer
 RomanPeshkov.vscode-text-tables
@@ -103,7 +103,10 @@ scala-lang.scala
 serayuzgur.crates
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
+Shopify.ruby-extensions-pack
+Shopify.ruby-lsp
 shuworks.vscode-table-formatter
+sorbet.sorbet-vscode-extension
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
 TabNine.tabnine-vscode
@@ -134,7 +137,6 @@ vscjava.vscode-maven
 vscodevim.vim
 wayou.vscode-todo-highlight
 willasm.rc-script
-wingrunr21.vscode-ruby
 xdebug.php-debug
 yy0931.vscode-sqlite3-editor
 yzane.markdown-pdf
