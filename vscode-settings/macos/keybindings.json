@@ -242,5 +242,22 @@
     "key": "alt+h",
     "command": "emacs-mcx.backwardKillWord",
     "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd && !editorReadonly"
+  },
+  // git 選択範囲のステージング
+  {
+    "key": "ctrl+x ctrl+q",
+    "command": "git.stageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+x ctrl+z",
+    "command": "git.unstageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+x ctrl+r",
+    "command": "git.revertSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
   }
+  // EOF
 ]

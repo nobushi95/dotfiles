@@ -165,6 +165,18 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true
+  },
 
   // C++ インレイヒント
   // "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
@@ -220,6 +232,5 @@
   // dotnet test explorer
   "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
   "tabnine.experimentalAutoImports": true,
-  "git.openRepositoryInParentFolders": "always",
-  "redhat.telemetry.enabled": false
+  "git.openRepositoryInParentFolders": "always"
 }
