@@ -46,7 +46,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit for \
     light-mode  zsh-users/zsh-autosuggestions \
     light-mode  zsh-users/zsh-history-substring-search \
-    light-mode zsh-users/zsh-syntax-highlighting \
+    light-mode  zsh-users/zsh-syntax-highlighting \
 
 # 補完関連
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
