@@ -46,6 +46,7 @@ libavif
 libepoxy
 libevent
 libffi
+libgit2
 libidn2
 libmpc
 libnghttp2
@@ -53,6 +54,7 @@ libpng
 libpthread-stubs
 librsvg
 libspiro
+libssh2
 libtasn1
 libtiff
 libtool
@@ -78,10 +80,12 @@ oniguruma
 openexr
 openjdk
 openssl@1.1
+openssl@3
 p11-kit
 pango
 pcre
 pcre2
+peco
 pixman
 pkg-config
 plantuml
@@ -90,6 +94,7 @@ python@3.11
 python@3.9
 readline
 sqlite
+tree-sitter
 unbound
 volta
 webp
@@ -100,3 +105,5 @@ zstd
 dotnet-sdk
 font-hackgen
 font-hackgen-nerd
+font-udev-gothic
+font-udev-gothic-nf
