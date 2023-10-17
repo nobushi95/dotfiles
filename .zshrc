@@ -115,4 +115,7 @@ zle -N peco-cdr
 bindkey '^t' peco-cdr
 
  # Shift-Tab で補完候補を逆順する("\e[Z"でも動作する)
-bindkey "^[[Z" reverse-menu-complete
+# bindkey "^[[Z" reverse-menu-complete
+
+# Tab, Shift-Tab で補完をサイクルする
+bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
