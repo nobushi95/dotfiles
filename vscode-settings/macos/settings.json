@@ -146,21 +146,26 @@
     // "editor.fontSize": 14
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[javascript]": {
     // "editor.maxTokenizationLineLength": 2500
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[typescript]": {
     // "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
@@ -231,6 +236,7 @@
 
   // dotnet test explorer
   "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
+
   "tabnine.experimentalAutoImports": true,
   "git.openRepositoryInParentFolders": "always"
 }
