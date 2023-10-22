@@ -44,6 +44,12 @@ Set-Alias -Name gd -Value git-diff
 function git-status { git status --short $args }
 Set-Alias -Name gs -Value git-status
 
+function git-local-branch { ((git branch | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "^\**\s*", "" }) }
+Set-Alias -Name lb -Value git-local-branch
+
+function git-switch-local-branch { git switch ((git branch | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "^\**\s*", "" }) }
+Set-Alias -Name gsl -Value git-switch-local-branch
+
 # gm が Get-Member のデフォルトエイリアスとなっているため上書き
 # Set-Alias のオプションで -Option AllScope とすればよさそう？？ -> -Forceで上書きも必要？
 # 参考: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.3#example-3-create-and-change-a-read-only-alias
@@ -92,3 +98,13 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 
 # openssl for rust
 # $env:OPENSSL_NO_VENDOR = "1"
+
+function pecoHistory() {
+    Get-Content (Get-PSReadlineOption).HistorySavePath | Select-Object -Unique | peco | Invoke-Expression
+}
+
+Set-PSReadLineKeyHandler -Chord Ctrl+r -ScriptBlock {
+    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+    [Microsoft.PowerShell.PSConsoleReadLine]::Insert("pecoHistory")
+    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
+}
