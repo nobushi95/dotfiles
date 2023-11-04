@@ -74,12 +74,12 @@ function prompt_my_volta() {
     nodeenv                 # node.js environment (https://github.com/ekalinin/nodeenv)
     my_volta                # node.js version from volta (https://volta.sh/) https://github.com/romkatv/powerlevel10k/issues/1388#issuecomment-859352008
     # node_version          # node.js version
-    # go_version            # go version (https://golang.org)
-    # rust_version          # rustc version (https://www.rust-lang.org)
-    # dotnet_version        # .NET version (https://dotnet.microsoft.com)
-    # php_version           # php version (https://www.php.net/)
-    # laravel_version       # laravel php framework version (https://laravel.com/)
-    # java_version          # java version (https://www.java.com/)
+    go_version              # go version (https://golang.org)
+    rust_version            # rustc version (https://www.rust-lang.org)
+    dotnet_version          # .NET version (https://dotnet.microsoft.com)
+    php_version             # php version (https://www.php.net/)
+    laravel_version         # laravel php framework version (https://laravel.com/)
+    java_version            # java version (https://www.java.com/)
     # package               # name@version from package.json (https://docs.npmjs.com/files/package.json)
     rbenv                   # ruby version from rbenv (https://github.com/rbenv/rbenv)
     rvm                     # ruby version from rvm (https://rvm.io)
