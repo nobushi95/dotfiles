@@ -25,13 +25,12 @@ emilast.LogFileHighlighter
 esbenp.prettier-vscode
 eservice-online.vs-sharper
 fabiospampinato.vscode-diff
-fernandoescolar.vscode-solution-explorer
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
-formulahendry.dotnet-test-explorer
 Fudge.auto-using
 GitHub.remotehub
+github.vscode-github-actions
 golang.go
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
@@ -95,7 +94,6 @@ pranaygp.vscode-css-peek
 qwtel.sqlite-viewer
 redhat.java
 ritwickdey.LiveServer
-RomanPeshkov.vscode-text-tables
 rust-lang.rust-analyzer
 ryu1kn.partial-diff
 ryuta46.multi-command
@@ -105,7 +103,6 @@ shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 Shopify.ruby-extensions-pack
 Shopify.ruby-lsp
-shuworks.vscode-table-formatter
 sorbet.sorbet-vscode-extension
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
