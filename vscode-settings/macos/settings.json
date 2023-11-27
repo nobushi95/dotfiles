@@ -1,7 +1,10 @@
 {
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "security.workspace.trust.untrustedFiles": "open",
+
+  // git
   "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
 
   // editor font
   "editor.fontFamily": "'UDEV Gothic', Menlo, Monaco, 'Courier New', monospace",
@@ -33,6 +36,25 @@
   "editor.copyWithSyntaxHighlighting": false,
   "editor.minimap.maxColumn": 60,
   "editor.minimap.showSlider": "always",
+  "editor.stickyScroll.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // Formatting Toggleが自動生成
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // terminal
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+  // window
+  "window.commandCenter": true,
 
   // explorer
   "explorer.confirmDelete": false,
@@ -44,24 +66,13 @@
     "*.xaml": "$(capture).xaml.cs"
   },
 
-  // draw-io
-  "hediet.vscode-drawio.theme": "atlas",
-
   // workbench
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
 
-  // bracket colorization
-  "editor.guides.bracketPairs": true,
-
-  // one dark pro
-  // "oneDarkPro.vivid": true,
-  // "oneDarkPro.italic": false,
-  "oneDarkPro.bold": true,
-
   // ワークベンチカラー設定
   "workbench.colorCustomizations": {
-    // for One Dark Pro Darker
+    // MinimapSlider
     "minimapSlider.background": "#ffffff17",
     "minimapSlider.hoverBackground": "#ffffff1b",
     "minimapSlider.activeBackground": "#ffffff20",
@@ -104,7 +115,15 @@
     "**/.factorypath": true
   },
 
-  // Path Intellisense
+  // draw-io
+  "hediet.vscode-drawio.theme": "atlas",
+
+  // one dark pro
+  // "oneDarkPro.vivid": true,
+  // "oneDarkPro.italic": false,
+  // "oneDarkPro.bold": true,
+
+  // For Path Intellisense
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
 
@@ -113,19 +132,9 @@
     "typescript": "npx ts-node"
   },
 
-  // Prettierをデフォルト設定に
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  // Formatting Toggleが自動生成
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.fixAll.eslint": "explicit"
-  },
+  // prettier
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
 
   // モードごとの設定
   "[markdown]": {
@@ -229,14 +238,13 @@
 
   // "workbench.experimental.layoutControl.enabled": true,
   // "workbench.experimental.layoutControl.type": "both",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+  // go
   "go.toolsManagement.autoUpdate": true,
-  "window.commandCenter": true,
-  "editor.stickyScroll.enabled": true,
 
   // dotnet test explorer
   "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
 
-  "tabnine.experimentalAutoImports": true,
-  "git.openRepositoryInParentFolders": "always"
+  // tabnine
+  "tabnine.experimentalAutoImports": true
 }
