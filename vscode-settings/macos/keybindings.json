@@ -54,17 +54,30 @@
     "command": "emacs-mcx.paredit.killSexp",
     "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd"
   },
+  // エディタに何も表示していないときでもターミナルを表示(ターミナルフォーカス移動より前に定義)
+  // ctrl + [：ターミナル表示
+  {
+    "key": "ctrl+[",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
   // ターミナル切替からフォーカス移動に変更
   // ctrl + @：ターミナルにフォーカスを移動
   {
-    "key": "ctrl+[BracketLeft]",
+    "key": "ctrl+[",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+[BracketLeft]",
+    "key": "ctrl+[",
     "command": "workbench.action.terminal.focus",
     "when": "editorFocus"
+  },
+  // ctrl + shift + [：新しいターミナルを開く
+  {
+    "key": "ctrl+shift+[",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
 
   // シンボルの移動（前方）を変更
@@ -232,11 +245,11 @@
   // },
 
   // Markdown Table とかぶっているので削除(Markdown All in One)
-  {
-    "key": "tab",
-    "command": "-markdown.extension.onTabKey",
-    "when": "editorTextFocus && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !inlineSuggestionVisible && !suggestWidgetVisible && editorLangId == 'markdown'"
-  },
+  // {
+  //   "key": "tab",
+  //   "command": "-markdown.extension.onTabKey",
+  //   "when": "editorTextFocus && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !inlineSuggestionVisible && !suggestWidgetVisible && editorLangId == 'markdown'"
+  // },
   // alt + h: kill-word
   {
     "key": "alt+h",

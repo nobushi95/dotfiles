@@ -134,7 +134,7 @@
 
   // prettier
   "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
+  // "prettier.jsxSingleQuote": true,
 
   // モードごとの設定
   "[markdown]": {
@@ -241,9 +241,6 @@
 
   // go
   "go.toolsManagement.autoUpdate": true,
-
-  // dotnet test explorer
-  "dotnet-test-explorer.testProjectPath": "**/*Test.@(csproj|vbproj|fsproj)",
 
   // tabnine
   "tabnine.experimentalAutoImports": true
