@@ -66,6 +66,14 @@
     "*.xaml": "$(capture).xaml.cs"
   },
 
+  // files
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
   // workbench
   "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -108,35 +116,13 @@
       ]
     }
   ],
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-
-  // draw-io
-  "hediet.vscode-drawio.theme": "atlas",
-
-  // one dark pro
-  // "oneDarkPro.vivid": true,
-  // "oneDarkPro.italic": false,
-  // "oneDarkPro.bold": true,
-
-  // For Path Intellisense
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
-
-  // Code Runner
-  "code-runner.executorMap": {
-    "typescript": "npx ts-node"
-  },
-
-  // prettier
-  "prettier.singleQuote": true,
-  // "prettier.jsxSingleQuote": true,
 
   // モードごとの設定
+  "[csv]": {
+    // "editor.fontFamily": "Osaka-Mono",
+    // "editor.fontFamily": "Ricty Diminished",
+    // "editor.fontSize": 14
+  },
   "[markdown]": {
     // デフォルト設定？
     // "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -149,12 +135,13 @@
     // "editor.fontFamily": "MyricaM M",
     // "editor.fontSize": 14
   },
-  "[csv]": {
-    // "editor.fontFamily": "Osaka-Mono",
-    // "editor.fontFamily": "Ricty Diminished",
-    // "editor.fontSize": 14
+  "[json]": {
+    // "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[jsonc]": {
+    // "editor.defaultFormatter": "vscode.json-language-features",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
@@ -236,11 +223,39 @@
   // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   // "javascript.inlayHints.variableTypes.enabled": true,
 
-  // "workbench.experimental.layoutControl.enabled": true,
-  // "workbench.experimental.layoutControl.type": "both",
-
   // go
   "go.toolsManagement.autoUpdate": true,
+
+  // past image
+  "pasteImage.path": "${currentFileDir}/images",
+
+  // git-graph
+  "git-graph.repository.fetchAndPrune": true,
+  "git-graph.repository.fetchAndPruneTags": true,
+
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // draw-io
+  "hediet.vscode-drawio.theme": "atlas",
+
+  // one dark pro
+  // "oneDarkPro.vivid": true,
+  // "oneDarkPro.italic": false,
+  // "oneDarkPro.bold": true,
+
+  // For Path Intellisense
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
+  // Code Runner
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node"
+  },
+
+  // prettier
+  "prettier.singleQuote": true,
+  // "prettier.jsxSingleQuote": true,
 
   // tabnine
   "tabnine.experimentalAutoImports": true
