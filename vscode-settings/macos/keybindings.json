@@ -48,12 +48,21 @@
     "command": "emacs-mcx.killLine",
     "when": "terminalFocus"
   },
+
   // alt + k: paredit-kill
   {
     "key": "alt+k",
     "command": "emacs-mcx.paredit.killSexp",
     "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd"
   },
+
+  // alt + h: kill-word
+  {
+    "key": "alt+h",
+    "command": "emacs-mcx.backwardKillWord",
+    "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd && !editorReadonly"
+  },
+
   // エディタに何も表示していないときでもターミナルを表示(ターミナルフォーカス移動より前に定義)
   // ctrl + [：ターミナル表示
   {
@@ -196,6 +205,7 @@
   //     "command": "-markdown.showPreview",
   //     "when": "!notebookEditorFocused && editorLangId == 'markdown'"
   // },
+
   // Markdownプレビューを横に表示
   // shift + cmd + v
   {
@@ -219,43 +229,13 @@
     "when": "editorTextFocus"
   },
 
-  /* (Markdown Tableを入れたので拡張機能を無効化) */
-  // Table Mode Onでtabとshift+tabで移動できるようにする
-  // {
-  //     "key": "tab",
-  //     "command": "text-tables.gotoNextCell",
-  //     // "command": "gotoNextCellAndFormat",
-  //     "when": "tableMode"
-  // },
-  // {
-  //     "key": "shift+tab",
-  //     "command": "text-tables.gotoPreviousCell",
-  //     // "command": "gotoPreviousCellAndFormat",
-  //     "when": "tableMode"
-  // },
-  // Table Formatter（日本語もうまくフォーマットしてくれる）
-  // デフォルトでキーバインド未設定なので割り当て
-  // {
-  //     "key": "ctrl+q ctrl+f",
-  //     "command": "extension.table.formatCurrent",
-  // },
-  // {
-  //     "key": "ctrl+q ctrl+a",
-  //     "command": "extension.table.formatAll",
-  // },
-
   // Markdown Table とかぶっているので削除(Markdown All in One)
   // {
   //   "key": "tab",
   //   "command": "-markdown.extension.onTabKey",
   //   "when": "editorTextFocus && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !inlineSuggestionVisible && !suggestWidgetVisible && editorLangId == 'markdown'"
   // },
-  // alt + h: kill-word
-  {
-    "key": "alt+h",
-    "command": "emacs-mcx.backwardKillWord",
-    "when": "editorTextFocus && !config.emacs-mcx.useMetaPrefixMacCmd && !editorReadonly"
-  },
+
   // git 選択範囲のステージング
   {
     "key": "ctrl+x ctrl+q",
