@@ -10,12 +10,15 @@
                 <ScopeDefinitions>
                     <Scope Name="チーム エクスプローラー" ID="{7AA20502-9463-47B7-BF43-341BAF51157C}"/>
                     <Scope Name="VC ダイアログ エディター" ID="{543E0C02-8C85-4E43-933A-5EF320E3431F}"/>
+                    <Scope Name="Rest API エディター" ID="{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"/>
                     <Scope Name="[すべての参照を検索] ツール ウィンドウ" ID="{1FA1FD06-3592-4D1D-AC75-0B953320140C}"/>
                     <Scope Name="テスト エクスプローラー プレイリスト タブ" ID="{D2F6510A-150A-4F3F-9D7C-8E38622D26F7}"/>
                     <Scope Name="XAML のリアルタイムのプレビュー" ID="{A0CA7712-7BB0-4324-9AF0-70E70D5ECC2D}"/>
                     <Scope Name="ライブ プロパティ エクスプローラー" ID="{31FC2115-5126-4A87-B2F7-77EAAB65048B}"/>
                     <Scope Name="XML (テキスト) エディター" ID="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"/>
+                    <Scope Name="Python エディター" ID="{3B902123-F8A7-4915-9F01-361F908088D0}"/>
                     <Scope Name="テキスト エディター" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+                    <Scope Name="Microsoft SQL Server Data Tools, T-SQL PDW エディター" ID="{C9626B29-6A42-411C-BD76-DAD855C86913}"/>
                     <Scope Name="作業項目の結果ビュー" ID="{7026002D-01F6-44E7-95CF-A896C00DA3F8}"/>
                     <Scope Name="ADO.NET  Entity Data Model Designer" ID="{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"/>
                     <Scope Name="ソリューション エクスプローラー" ID="{3AE79031-E1BC-11D0-8F78-00A0C9110057}"/>
@@ -29,18 +32,19 @@
                     <Scope Name="AppManifestDesigner" ID="{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"/>
                     <Scope Name="DataSet エディター" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
                     <Scope Name="XAML デザイナー" ID="{E9B8485C-1217-4277-9ED6-C825A5AC1968}"/>
-                    <Scope Name="グラフ ドキュメント エディター" ID="{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"/>
                     <Scope Name="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}" ID="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}"/>
                     <Scope Name="ビュー デザイナー" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
                     <Scope Name="XAML エディター" ID="{A4F9FF65-A78C-4650-866D-5069CC4127CF}"/>
+                    <Scope Name="Microsoft SQL Server Data Tools, テーブル デザイナー" ID="{2366CF66-2394-4701-AFCA-37ED7FD41648}"/>
                     <Scope Name="ターミナル" ID="{D212F56B-C48A-434C-A121-1C5D80B59B9F}"/>
                     <Scope Name="Visual Basic エディター" ID="{2C015C70-C72C-11D0-88C3-00A0C9110049}"/>
                     <Scope Name="全体" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}"/>
                     <Scope Name="HTML エディター" ID="{40D31677-CBC0-4297-A9EF-89D907823A98}"/>
-                    <Scope Name="クラス ダイアグラム" ID="{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}"/>
                     <Scope Name="自動変数ウィンドウ" ID="{F2E84780-2AF1-11D1-A7FA-00A0C9110051}"/>
                     <Scope Name="ライブ ビジュアル ツリー" ID="{A2EAF38F-A0AD-4503-91F8-5F004A69A040}"/>
                     <Scope Name="作業項目のクエリ ビュー" ID="{B6303490-B828-410C-9216-AE727D0E282D}"/>
+                    <Scope Name="呼び出し履歴ウィンドウ" ID="{0504FF91-9D61-11D0-A794-00A0C9110051}"/>
+                    <Scope Name="DOM Explorer" ID="{01E50993-E6A4-491E-AB3F-3A9939DE3524}"/>
                     <Scope Name="Team Foundation ビルド詳細エディター" ID="{86306A97-84F2-4F5A-889B-1318501AEB5F}"/>
                     <Scope Name="データベース デザイナー" ID="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}"/>
                     <Scope Name="作業項目エディター" ID="{40A91D9D-8076-4D28-87C5-5AF9F0ACFE0F}"/>
@@ -56,17 +60,22 @@
                     <Scope Name="Git" ID="{7605A6B0-118F-45BF-95CC-7DB110BF44FD}"/>
                     <Scope Name="VC アクセラレータ エディター" ID="{EB56D0B5-BEE7-4D0C-8BE6-88A8ED256695}"/>
                     <Scope Name="モジュール ウィンドウ" ID="{37ABA9BE-445A-11D3-9949-00C04F68FD0A}"/>
+                    <Scope Name="Android レイアウト ファイル" ID="{BD7E51C2-2AFC-4557-8606-CDA742914832}"/>
                     <Scope Name="マネージド リソース エディター" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
                     <Scope Name="並列スタック ウィンドウ" ID="{B9A151CE-EF7C-4FE1-A6AA-4777E6E518F3}"/>
                     <Scope Name="FSharpEditorFactory" ID="{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"/>
                     <Scope Name="ローカル ウィンドウ" ID="{4A18F9D0-B838-11D0-93EB-00A0C90F2734}"/>
-                    <Scope Name="コード化された UI テスト エディター" ID="{E91F82D5-B532-47E9-ADAD-72F96EF9D35F}"/>
+                    <Scope Name="Web Live Preview デザイナー" ID="{530B96D7-B823-4F3F-8178-2645B480838B}"/>
+                    <Scope Name="JavaScript コンソール" ID="{074F1AD9-308B-488C-861E-CF88182E2788}"/>
                     <Scope Name="相違ビューアー" ID="{79D52DDF-52BC-43F1-9663-B3E85CDCA912}"/>
+                    <Scope Name="Microsoft SQL Server Data Tools、スキーマ比較" ID="{00E9D2E3-9044-47D1-978C-BE2825249219}"/>
                     <Scope Name="テーブル デザイナー" ID="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}"/>
                     <Scope Name="HTML エディター デザイン ビュー" ID="{CB3FCFEA-03DF-11D1-81D2-00A0C91BBEE3}"/>
                     <Scope Name="{244DF7EA-D757-4B52-B92C-EFD2D3402C91}" ID="{244DF7EA-D757-4B52-B92C-EFD2D3402C91}"/>
                     <Scope Name="HTML エディター ソース ビュー" ID="{CB3FCFEB-03DF-11D1-81D2-00A0C91BBEE3}"/>
                     <Scope Name="VC イメージ エディター" ID="{C0BA70ED-069E-412B-9C06-7442E28A11B9}"/>
+                    <Scope Name="Microsoft SQL Server Data Tools、T-SQL Editor" ID="{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"/>
+                    <Scope Name="クエリ結果" ID="{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"/>
                     <Scope Name="テスト エクスプローラー" ID="{E1B7D1F8-9B3C-49B1-8F4F-BFC63A88835D}"/>
                     <Scope Name="XML スキーマ デザイナー" ID="{DEE6CEF9-3BCA-449A-82A6-FC757D6956FB}"/>
                     <Scope Name="{9E0531FA-FD8C-4007-BD8D-DBB03EBDB4B3}" ID="{9E0531FA-FD8C-4007-BD8D-DBB03EBDB4B3}"/>
@@ -80,7 +89,7 @@
                     <RemoveShortcut Command="File.NewFile" Scope="全体">Ctrl+N</RemoveShortcut>
                     <RemoveShortcut Command="File.Print" Scope="全体">Ctrl+P</RemoveShortcut>
                     <RemoveShortcut Command="View.QuickActions" Scope="テキスト エディター">Ctrl+.</RemoveShortcut>
-                    <RemoveShortcut Command="Edit.SelectToLastGoBack" Scope="テキスト エディター">Ctrl+;</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.SelectToLastGoBack" Scope="テキスト エディター">Ctrl+=</RemoveShortcut>
                     <RemoveShortcut Command="Edit.ToggleBlockComment" Scope="テキスト エディター">Ctrl+Shift+/</RemoveShortcut>
                     <RemoveShortcut Command="Edit.DocumentEnd" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">End</RemoveShortcut>
                     <RemoveShortcut Command="Edit.DocumentStart" Scope="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}">Home</RemoveShortcut>
@@ -135,6 +144,9 @@
                     <RemoveShortcut Command="Edit.EmacsQuotedInsert" Scope="テキスト エディター">Ctrl+Q</RemoveShortcut>
                     <Shortcut Command="Build.BuildSelection" Scope="全体">F7</Shortcut>
                     <Shortcut Command="Edit.EmacsWordDeleteToStart" Scope="テキスト エディター">Alt+H</Shortcut>
+                    <RemoveShortcut Command="Edit.ToggleComment" Scope="全体">Ctrl+=</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.ToggleCommentDouble" Scope="全体">Ctrl+Shift+=</RemoveShortcut>
+                    <Shortcut Command="View.Terminal" Scope="全体">Ctrl+[</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
