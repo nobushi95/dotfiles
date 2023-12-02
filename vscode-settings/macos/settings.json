@@ -208,13 +208,6 @@
   // Python インレイヒント
   // "python.analysis.inlayHints.functionReturnTypes": true,
   // "python.analysis.inlayHints.variableTypes": true,
-  // TypeScript インレイヒント
-  // "typescript.inlayHints.variableTypes.enabled": true,
-  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  // "typescript.inlayHints.parameterTypes.enabled": true,
-  // "typescript.inlayHints.parameterNames.enabled": "all",
-  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  // "typescript.inlayHints.enumMemberValues.enabled": true,
   // JavaScript インレイヒント
   // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   // "javascript.inlayHints.enumMemberValues.enabled": true,
@@ -222,6 +215,13 @@
   // "javascript.inlayHints.parameterTypes.enabled": true,
   // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   // "javascript.inlayHints.variableTypes.enabled": true,
+  // TypeScript インレイヒント
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
 
   // go
   "go.toolsManagement.autoUpdate": true,
