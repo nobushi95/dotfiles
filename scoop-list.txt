@@ -1,10 +1,8 @@
-
-Name
-----
 7zip
 bat
 dark
 dotnet-sdk
+eza
 gcc
 gdb
 git
@@ -15,11 +13,12 @@ llvm
 oh-my-posh
 openjdk
 openssl
+peco
 posh-git
 python
 scoop-completion
+sourcetrail
 sqlitebrowser
 sudo
 terminal-icons
 volta
-
