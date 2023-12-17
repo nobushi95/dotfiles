@@ -110,8 +110,12 @@ woff2
 xorgproto
 xz
 zstd
+alacritty
 dotnet-sdk
 font-hackgen
 font-hackgen-nerd
 font-udev-gothic
 font-udev-gothic-nf
+iterm2
+warp
+wave
