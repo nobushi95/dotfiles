@@ -5,13 +5,22 @@
 # gitなどのcompletionが設定したaliasでも動作するように、Import-Moduleの前に記載する
 
 ## base
-Set-Alias ls lsd
-Set-Alias l ls
-Set-Alias ll ls
-Set-Alias la ls
-Set-Alias lla ls
 Set-Alias open Invoke-Item
 Set-Alias pbcopy Set-Clipboard
+
+## ls
+function lsd-base { lsd -F $args };
+Set-Alias -Name ls -Value lsd-base
+Set-Alias -Name l -Value lsd-base
+
+function ls-a { lsd -Fa $args }
+Set-Alias -Name la -Value ls-a
+
+function ls-l { lsd -Flh $args }
+Set-Alias -Name ll -Value ls-l
+
+function ls-la { lsd -Flha $args }
+Set-Alias -Name lla -Value ls-la
 
 ## VSCode
 function code-r { code -r $args }
