@@ -10,6 +10,7 @@ go
 gow
 innounp
 llvm
+lsd
 oh-my-posh
 openjdk
 openssl

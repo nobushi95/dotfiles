@@ -5,6 +5,7 @@
 # gitなどのcompletionが設定したaliasでも動作するように、Import-Moduleの前に記載する
 
 ## base
+Set-Alias ls lsd
 Set-Alias l ls
 Set-Alias ll ls
 Set-Alias la ls
