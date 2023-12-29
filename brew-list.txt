@@ -8,6 +8,7 @@ brotli
 ca-certificates
 cairo
 dbus
+difftastic
 emacs
 eza
 fd
