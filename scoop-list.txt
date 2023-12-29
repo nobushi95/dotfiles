@@ -1,6 +1,7 @@
 7zip
 bat
 dark
+difftastic
 dotnet-sdk
 eza
 gcc

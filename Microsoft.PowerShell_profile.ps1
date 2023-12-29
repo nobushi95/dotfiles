@@ -5,6 +5,7 @@
 # gitなどのcompletionが設定したaliasでも動作するように、Import-Moduleの前に記載する
 
 ## base
+Set-Alias -Force diff difft
 Set-Alias open Invoke-Item
 Set-Alias pbcopy Set-Clipboard
 
