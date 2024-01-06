@@ -12,6 +12,7 @@ alias clean="rm -f *~;"
 alias rm="rm -i"
 
 # others
+alias diff="difft"
 alias j="jobs -l;"
 alias ssh="ssh -X"
 alias ldd="otool -L"
