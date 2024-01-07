@@ -6,6 +6,7 @@ alias l="ls"
 alias la="ls -a"
 alias ll="ls -lgh"
 alias lla="ls -lgha"
+alias lt="ls --tree"
 
 # rm
 alias clean="rm -f *~;"
