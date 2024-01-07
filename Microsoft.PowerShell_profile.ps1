@@ -23,6 +23,9 @@ Set-Alias -Name ll -Value ls-l
 function ls-la { lsd -Flgha $args }
 Set-Alias -Name lla -Value ls-la
 
+function ls-tree { lsd -F --tree $args }
+Set-Alias -Name lt -Value ls-tree
+
 ## VSCode
 function code-r { code -r $args }
 Set-Alias -Name cr -Value code-r
