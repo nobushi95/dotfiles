@@ -24,7 +24,7 @@
   // terminal font
   // "terminal.integrated.fontFamily": "MesloLGS NF", // for powerlelvel10k theme
   // "terminal.integrated.fontFamily": "HackGen35 Console NFJ",
-  "terminal.integrated.fontFamily": "'UDEV Gothic 35NFLG'",
+  "terminal.integrated.fontFamily": "'UDEV Gothic 35NF'",
   "terminal.integrated.fontSize": 13,
 
   // debug console font
@@ -181,6 +181,9 @@
 
   // go
   "go.toolsManagement.autoUpdate": true,
+
+  // typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
   // past image
   "pasteImage.path": "${currentFileDir}/images",
