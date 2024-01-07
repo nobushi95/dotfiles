@@ -17,10 +17,10 @@ Set-Alias -Name l -Value lsd-base
 function ls-a { lsd -Fa $args }
 Set-Alias -Name la -Value ls-a
 
-function ls-l { lsd -Flh $args }
+function ls-l { lsd -Flgh $args }
 Set-Alias -Name ll -Value ls-l
 
-function ls-la { lsd -Flha $args }
+function ls-la { lsd -Flgha $args }
 Set-Alias -Name lla -Value ls-la
 
 ## VSCode
