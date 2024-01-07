@@ -119,3 +119,7 @@ bindkey "^[[Z" reverse-menu-complete
 
 # Tab, Shift-Tab で補完をサイクルする (zsh-autocomplete)
 # bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+
+# iTerm2 shell integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
