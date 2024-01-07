@@ -14,7 +14,7 @@
   // terminal font
   // "terminal.integrated.fontFamily": "MesloLGS NF",
   // "terminal.integrated.fontFamily": "HackGen35 Console NF",
-  "terminal.integrated.fontFamily": "'UDEV Gothic 35NFLG'",
+  "terminal.integrated.fontFamily": "'UDEV Gothic 35NF'",
   "terminal.integrated.fontSize": 13,
 
   // editor

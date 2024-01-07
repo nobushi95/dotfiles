@@ -7,7 +7,7 @@
         <Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
             <PropertyValue name="Version">2</PropertyValue>
             <FontsAndColors Version="2.0">
-                <Theme Id="{FE25AF5D-89D2-4548-98BE-F2137AA978BC}"/>
+                <Theme Id="{E2659D2D-A61C-4EFE-832D-D69BE20D7DFD}"/>
                 <Categories>
                     <Category GUID="{FA937F7B-C0D2-46B8-9F10-A7A92642B384}" FontIsDefault="Yes">
                         <Items>
@@ -25,11 +25,13 @@
                             <Item Name="Different content" Foreground="0x000014E5" Background="0x00FFFFFF" BoldFont="No"/>
                         </Items>
                     </Category>
-                    <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="HackGen" FontSize="12" CharSet="1" FontIsDefault="No">
+                    <Category GUID="{FC88969A-CBED-4940-8F48-142A503E2381}" FontName="UDEV Gothic 35" FontSize="10" CharSet="128" FontIsDefault="No">
                         <Items>
-                            <Item Name="viasfora.rainbow.9" Foreground="0x003FFF3F" Background="0x01000001" BoldFont="No"/>
-                            <Item Name="viasfora.rainbow.8" Foreground="0x00FF7F3F" Background="0x01000001" BoldFont="No"/>
-                            <Item Name="viasfora.rainbow.7" Foreground="0x00FF7FFF" Background="0x01000001" BoldFont="No"/>
+                            <Item Name="IndicatorTextHovered" Foreground="0x00F1F1F1" Background="0x01000018" BoldFont="No"/>
+                        </Items>
+                    </Category>
+                    <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="UDEV Gothic" FontSize="12" CharSet="1" FontIsDefault="No">
+                        <Items>
                             <Item Name="viasfora.rainbow.6" Foreground="0x000000FF" Background="0x01000001" BoldFont="No"/>
                             <Item Name="viasfora.rainbow.5" Foreground="0x003FBFFF" Background="0x01000001" BoldFont="No"/>
                             <Item Name="viasfora.rainbow.4" Foreground="0x0000FFFF" Background="0x01000001" BoldFont="No"/>
@@ -38,39 +40,22 @@
                             <Item Name="viasfora.rainbow.1" Foreground="0x00FF7FFF" Background="0x01000001" BoldFont="No"/>
                         </Items>
                     </Category>
-                    <Category GUID="{FC88969A-CBED-4940-8F48-142A503E2381}" FontName="HackGen35 Console NFJ" FontSize="10" CharSet="128" FontIsDefault="No">
-                        <!-- Dark+ V2用インジケーターテキスト設定 -->
-                        <Items>
-                            <Item Name="IndicatorTextDisabled" Foreground="0x00CCCCCC" Background="0x01000018" BoldFont="No"/>
-                            <Item Name="IndicatorTextHovered" Foreground="0x00F1F1F1" Background="0x01000018" BoldFont="No"/>
-                            <Item Name="IndicatorText" Foreground="0x00CCCCCC" Background="0x01000018" BoldFont="No"/>
-                        </Items>
-                    </Category>
                     <Category GUID="{1F987C00-E7C4-4869-8A17-23FD602268B0}" FontName="Segoe UI" FontSize="10" CharSet="0" FontIsDefault="No">
                         <Items/>
                     </Category>
-                    <Category GUID="{24689D95-4F79-475F-81F0-D6E351D7BCD0}" FontName="HackGen35 Console NF" FontSize="10" CharSet="128" FontIsDefault="No">
+                    <Category GUID="{24689D95-4F79-475F-81F0-D6E351D7BCD0}" FontName="UDEV Gothic 35NF" FontSize="10" CharSet="0" FontIsDefault="No">
                         <Items/>
                     </Category>
                     <Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontName="Cascadia Code" FontSize="10" CharSet="0" FontIsDefault="No">
                         <Items/>
                     </Category>
-                    <Category GUID="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}" FontName="Cascadia Code" FontSize="9" CharSet="0" FontIsDefault="No">
+                    <Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="UDEV Gothic" FontSize="12" CharSet="1" FontIsDefault="No">
                         <Items/>
                     </Category>
-                    <Category GUID="{5C48B2CB-0366-4FBF-9786-0BB37E945687}" FontName="Cascadia Code" FontSize="9" CharSet="0" FontIsDefault="No">
+                    <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="UDEV Gothic" FontSize="12" CharSet="1" FontIsDefault="No">
                         <Items/>
                     </Category>
-                    <Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" FontName="Cascadia Code" FontSize="9" CharSet="0" FontIsDefault="No">
-                        <Items/>
-                    </Category>
-                    <Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="HackGen" FontSize="12" CharSet="1" FontIsDefault="No">
-                        <Items/>
-                    </Category>
-                    <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="HackGen" FontSize="12" CharSet="1" FontIsDefault="No">
-                        <Items/>
-                    </Category>
-                    <Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="HackGen" FontSize="12" CharSet="1" FontIsDefault="No">
+                    <Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="UDEV Gothic" FontSize="12" CharSet="1" FontIsDefault="No">
                         <Items/>
                     </Category>
                 </Categories>
