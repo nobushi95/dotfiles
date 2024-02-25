@@ -74,6 +74,11 @@
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
+  {
+    "key": "ctrl+[BracketLeft]",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
   // ターミナル切替からフォーカス移動に変更
   // ctrl + [ : ターミナルにフォーカスを移動
   {
@@ -86,9 +91,24 @@
     "command": "workbench.action.terminal.focus",
     "when": "editorFocus"
   },
+  {
+    "key": "ctrl+[BracketLeft]",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+[BracketLeft]",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
+  },
   // ctrl + shift + [ : 新しいターミナルを開く
   {
     "key": "ctrl+shift+[",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+[BracketLeft]",
     "command": "workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
