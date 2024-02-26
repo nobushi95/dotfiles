@@ -21,6 +21,7 @@
 	co = checkout
 	sw = switch
 	cp = cherry-pick
+	rb = rebase
 	gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 	graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 [pull]
