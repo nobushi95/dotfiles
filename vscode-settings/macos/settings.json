@@ -90,7 +90,8 @@
     "editorBracketHighlight.foreground3": "#3FFF3F", // 緑
     "editorBracketHighlight.foreground4": "#FFFF00", // 黄
     "editorBracketHighlight.foreground5": "#FFBF3F", // 橙
-    "editorBracketHighlight.foreground6": "#FF0000" // 赤
+    "editorBracketHighlight.foreground6": "#FF0000", // 赤
+    "editor.lineHighlightBorder": "#464646"
   },
 
   // インデントカラー
