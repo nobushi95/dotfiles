@@ -84,7 +84,8 @@
     "editorBracketHighlight.foreground3": "#3FFF3F",
     "editorBracketHighlight.foreground4": "#FFFF00",
     "editorBracketHighlight.foreground5": "#FFBF3F",
-    "editorBracketHighlight.foreground6": "#FF0000"
+    "editorBracketHighlight.foreground6": "#FF0000",
+    "editor.lineHighlightBorder": "#464646"
   },
 
   "[markdown]": {
