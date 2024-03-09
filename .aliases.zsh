@@ -37,6 +37,8 @@ function git_commit_with_arguments_message() {
 alias gm=git_commit_with_arguments_message
 ## g br lb でローカルブランチをpecoで選択
 alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
+## g br B でリモートブランチを含んだブランチをpecoで選択
+alias -g B='`git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 
 # history
 # alias h="history 30 | tail -n 30;"
