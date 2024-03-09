@@ -123,3 +123,5 @@ bindkey "^[[Z" reverse-menu-complete
 # iTerm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
