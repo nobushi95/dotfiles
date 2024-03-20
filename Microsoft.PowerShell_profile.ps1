@@ -61,8 +61,14 @@ Set-Alias -Name gs -Value git-status
 function git-local-branch { ((git branch | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "^\**\s*", "" }) }
 Set-Alias -Name lb -Value git-local-branch
 
+function git-branch { ((git branch --all | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "remotes/[^/]*/", "" } | ForEach-Object { $_ -replace "^\**\s*", "" }) }
+Set-Alias -Name B -Value git-branch
+
 function git-switch-local-branch { git switch ((git branch | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "^\**\s*", "" }) }
 Set-Alias -Name gsl -Value git-switch-local-branch
+
+function git-switch-branch { git switch ((git branch --all | peco --prompt "GIT BRANCH>") | ForEach-Object { $_ -replace "remotes/[^/]*/", "" } | ForEach-Object { $_ -replace "^\**\s*", "" }) }
+Set-Alias -Name gsB -Value git-switch-branch
 
 # gm が Get-Member のデフォルトエイリアスとなっているため上書き
 # Set-Alias のオプションで -Option AllScope とすればよさそう？？ -> -Forceで上書きも必要？
