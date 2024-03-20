@@ -45,10 +45,11 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # パッケージ
 ## 参考: https://github.com/yutkat/dotfiles/blob/1949077cae1831e150dbd1cdd907f7a4eb2afa6c/.config/zsh/rc/pluginlist.zsh
 zinit for \
-    light-mode  zsh-users/zsh-syntax-highlighting \
+    light-mode zsh-users/zsh-syntax-highlighting \
+    light-mode zsh-users/zsh-autosuggestions
 
-zinit wait'0b' lucid \
-	light-mode for @zsh-users/zsh-autosuggestions
+# zinit wait'0b' lucid \
+# 	light-mode for @zsh-users/zsh-autosuggestions
 
 # zinit wait'0a' lucid \
 # 	light-mode for @marlonrichert/zsh-autocomplete
