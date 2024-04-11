@@ -19,15 +19,6 @@ export JAVA_HOME=`/usr/libexec/java_home`
 # atcoder
 export CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:$HOME/opt/ac-library"
 
-# zsh parameter completion for the dotnet CLI
-_dotnet_zsh_complete()
-{
-  local completions=("$(dotnet complete "$words")")
-
-  reply=( "${(ps:\n:)completions}" )
-}
-compctl -K _dotnet_zsh_complete dotnet
-
 # historyコマンド
 setopt extended_history
 # HISTFILE=$HOME/.zsh-history
@@ -64,3 +55,6 @@ _dotnet_zsh_complete()
 }
 
 compctl -K _dotnet_zsh_complete dotnet
+
+# dotnet tool
+export PATH="$HOME/.dotnet/tools:$PATH"
