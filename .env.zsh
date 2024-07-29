@@ -58,3 +58,7 @@ compctl -K _dotnet_zsh_complete dotnet
 
 # dotnet tool
 export PATH="$HOME/.dotnet/tools:$PATH"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
