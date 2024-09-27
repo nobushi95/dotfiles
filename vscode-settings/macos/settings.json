@@ -7,7 +7,7 @@
   "git.openRepositoryInParentFolders": "always",
 
   // editor font
-  "editor.fontFamily": "'UDEV Gothic', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'UDEV Gothic' ,'Explex' ,Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "HackGen, Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "'Ricty Diminished', Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "SF Mono Square, MyricaM M, Menlo, Monaco, 'Courier New', monospace",
@@ -50,9 +50,6 @@
     "source.fixAll.eslint": "explicit"
   },
 
-  // terminal
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-
   // window
   "window.commandCenter": true,
 
@@ -91,7 +88,20 @@
     "editorBracketHighlight.foreground4": "#FFFF00", // 黄
     "editorBracketHighlight.foreground5": "#FFBF3F", // 橙
     "editorBracketHighlight.foreground6": "#FF0000", // 赤
-    "editor.lineHighlightBorder": "#464646"
+    "editor.lineHighlightBorder": "#464646",
+
+    "editorIndentGuide.background1": "#623B62", // 紫
+    "editorIndentGuide.background2": "#283B62", // 青
+    "editorIndentGuide.background3": "#286228", // 緑
+    "editorIndentGuide.background4": "#626215", // 黄
+    "editorIndentGuide.background5": "#624F28", // 橙
+    "editorIndentGuide.background6": "#621515", // 赤
+    "editorIndentGuide.activeBackground1": "#FF7FFF", // 紫
+    "editorIndentGuide.activeBackground2": "#3F7FFF", // 青
+    "editorIndentGuide.activeBackground3": "#3FFF3F", // 緑
+    "editorIndentGuide.activeBackground4": "#FFFF00", // 黄
+    "editorIndentGuide.activeBackground5": "#FFBF3F", // 橙
+    "editorIndentGuide.activeBackground6": "#FF0000" // 赤
   },
 
   // インデントカラー
@@ -179,6 +189,7 @@
     "editor.rulers": [120],
     "editor.semanticHighlighting.enabled": true
   },
+  "[python]": {},
 
   // go
   "go.toolsManagement.autoUpdate": true,
@@ -218,5 +229,6 @@
   // "prettier.jsxSingleQuote": true,
 
   // tabnine
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "material-icon-theme.folders.color": "#90a4ae"
 }
