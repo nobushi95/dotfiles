@@ -190,6 +190,16 @@
     "editor.semanticHighlighting.enabled": true
   },
   "[python]": {},
+  "[erb]": {
+    // for auto-close-tag
+    "editor.autoClosingBrackets": "never"
+  },
+
+  // Rails
+  "emmet.includeLanguages": {
+    "ruby": "html",
+    "erb": "html"
+  },
 
   // go
   "go.toolsManagement.autoUpdate": true,
