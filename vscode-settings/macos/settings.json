@@ -192,6 +192,7 @@
   "[python]": {},
   "[erb]": {
     // for auto-close-tag
+    "editor.tabSize": 2,
     "editor.autoClosingBrackets": "never"
   },
 
@@ -200,6 +201,8 @@
     "ruby": "html",
     "erb": "html"
   },
+  // temporarily wa
+  "rubyLsp.erbSupport": false,
 
   // go
   "go.toolsManagement.autoUpdate": true,
