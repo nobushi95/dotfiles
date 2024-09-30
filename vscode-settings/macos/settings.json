@@ -198,7 +198,7 @@
 
   // Rails
   "emmet.includeLanguages": {
-    "ruby": "html",
+    // "ruby": "html",
     "erb": "html"
   },
   // temporarily wa
