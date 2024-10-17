@@ -24,9 +24,9 @@ alias nn="nano"
 
 # git
 alias g="git"
-alias pull="git pull"
-alias push="git push"
-alias fetch="git fetch"
+alias gpl="git pull"
+alias gps="git push"
+alias gf="git fetch"
 alias ga="git add"
 alias gb="git branch"
 alias gd="git diff"
