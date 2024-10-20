@@ -11,6 +11,7 @@ christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
 codezombiech.gitignore
+connorshea.vscode-ruby-test-adapter
 cschlosser.doxdocgen
 csholmq.excel-to-markdown-table
 dan-c-underwood.arm
