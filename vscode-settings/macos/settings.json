@@ -50,9 +50,6 @@
     "source.fixAll.eslint": "explicit"
   },
 
-  // window
-  "window.commandCenter": true,
-
   // explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -223,11 +220,6 @@
   // draw-io
   "hediet.vscode-drawio.theme": "atlas",
 
-  // one dark pro
-  // "oneDarkPro.vivid": true,
-  // "oneDarkPro.italic": false,
-  // "oneDarkPro.bold": true,
-
   // For Path Intellisense
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
@@ -238,10 +230,6 @@
   },
 
   // prettier
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": true
   // "prettier.jsxSingleQuote": true,
-
-  // tabnine
-  "tabnine.experimentalAutoImports": true,
-  "material-icon-theme.folders.color": "#90a4ae"
 }
