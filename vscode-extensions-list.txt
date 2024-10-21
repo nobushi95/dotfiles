@@ -5,6 +5,7 @@ alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
+borama.ruby-slim
 bradlc.vscode-tailwindcss
 castwide.solargraph
 christian-kohler.npm-intellisense
@@ -58,7 +59,6 @@ leonardssh.vscord
 mechatroner.rainbow-csv
 mhutchie.git-graph
 micnil.vscode-checkpoints
-mosapride.zenkaku
 ms-azuretools.vscode-docker
 ms-ceintl.vscode-language-pack-ja
 ms-dotnettools.blazorwasm-companion
@@ -77,6 +77,8 @@ ms-toolsai.jupyter-renderers
 ms-toolsai.vscode-jupyter-cell-tags
 ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
 ms-vscode.azure-repos
 ms-vscode.cmake-tools
@@ -86,6 +88,7 @@ ms-vscode.cpptools-themes
 ms-vscode.hexeditor
 ms-vscode.makefile-tools
 ms-vscode.powershell
+ms-vscode.remote-explorer
 ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 msjsdiag.vscode-react-native
@@ -120,7 +123,6 @@ tamasfe.even-better-toml
 tintoy.msbuild-project-tools
 tobias-sekan.solutionextension
 tombonnike.vscode-status-bar-format-toggle
-tomoki1207.pdf
 tomoki1207.vscode-input-sequence
 tuttieee.emacs-mcx
 twxs.cmake
