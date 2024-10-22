@@ -46,8 +46,9 @@
 
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit",
-    "source.fixAll.eslint": "explicit"
+    "source.addMissingImports": "explicit"
   },
 
   // explorer
@@ -61,12 +62,12 @@
   },
 
   // files
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
+  // "files.exclude": {
+  //   "**/.classpath": true,
+  //   "**/.project": true,
+  //   "**/.settings": true,
+  //   "**/.factorypath": true
+  // },
 
   // workbench
   "workbench.editor.wrapTabs": true,
@@ -175,16 +176,16 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "[ruby]": {
-    "editor.defaultFormatter": "Shopify.ruby-lsp",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "editor.rulers": [120],
-    "editor.semanticHighlighting.enabled": true
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+    // "editor.formatOnSave": true,
+    // "editor.formatOnType": true,
+    // "editor.tabSize": 2,
+    // "editor.insertSpaces": true,
+    // "files.trimTrailingWhitespace": true,
+    // "files.insertFinalNewline": true,
+    // "files.trimFinalNewlines": true,
+    // "editor.rulers": [120],
+    // "editor.semanticHighlighting.enabled": true
   },
   "[python]": {},
   "[erb]": {
@@ -198,8 +199,10 @@
     // "ruby": "html",
     "erb": "html"
   },
-  // temporarily wa
-  "rubyLsp.erbSupport": false,
+
+  // ruby
+  "rubyLsp.erbSupport": false, // temporarily work around
+  "rubyLsp.formatter": "rubocop",
 
   // go
   "go.toolsManagement.autoUpdate": true,

@@ -103,12 +103,15 @@ patcx.vscode-nuget-gallery
 pkief.material-icon-theme
 pranaygp.vscode-css-peek
 qwtel.sqlite-viewer
+redhat.ansible
 redhat.java
+redhat.vscode-yaml
 ritwickdey.liveserver
 rust-lang.rust-analyzer
 ryu1kn.partial-diff
 ryuta46.multi-command
 scala-lang.scala
+sevenc-nanashi.gemfile-lock-highlight
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shopify.ruby-extensions-pack
