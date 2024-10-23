@@ -8,6 +8,9 @@ fpath+=$(brew --prefix)/share/zsh/site-functions
 # zsh completion (cargo, rustup, volta)
 fpath+=$HOME/.zsh/completions
 
+# docker completions
+fpath+="$HOME/.docker/completions"
+
 # volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"

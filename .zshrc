@@ -126,6 +126,3 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # fzf
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# docker completions
-FPATH="$HOME/.docker/completions:$FPATH"
