@@ -1,1 +1,1 @@
-cat .bashrc >> ~/.bashrc
+cat devcontainer/.bashrc >> ~/.bashrc
