@@ -4,8 +4,8 @@ alias ls="lsd -F"
 # alias ls="ls -GCF"
 alias l="ls"
 alias la="ls -a"
-alias ll="ls -lh"
-alias lla="ls -lha"
+alias ll="ls -lgh"
+alias lla="ls -lgha"
 alias lt="ls --tree"
 
 # rm
