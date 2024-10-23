@@ -233,6 +233,16 @@
   },
 
   // prettier
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
   // "prettier.jsxSingleQuote": true,
+
+  // telemetry
+  // "gitlens.telemetry.enabled": false,
+  // "partialDiff.enableTelemetry": false,
+  // "rest-client.enableTelemetry": false,
+  // "redhat.telemetry.enabled": false,
+
+  // dotfiles
+  "dotfiles.installCommand": "devcontainer/install.sh",
+  "dotfiles.repository": "nobushi95/dotfiles"
 }
