@@ -1,5 +1,5 @@
 # added by devcontainer from dotfiles/devcontainer/.bashrc
-alias ls="ls -F"
+alias ls="ls --color=auto -F"
 alias l="ls"
 alias la="ls -a"
 alias ll="ls -lh"
