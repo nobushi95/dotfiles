@@ -4,8 +4,8 @@ alias ls="lsd -F"
 # alias ls="ls -GCF"
 alias l="ls"
 alias la="ls -a"
-alias ll="ls -lgh"
-alias lla="ls -lgha"
+alias ll="ls -lh"
+alias lla="ls -lha"
 alias lt="ls --tree"
 
 # rm
@@ -67,7 +67,7 @@ alias cr="code -r"
 alias cn="code -n"
 
 # Open Application
-## Mac 
+## Mac
 alias finder="open -a finder"
 alias preview="open -a Preview"
 alias calc="open -a 'Calculator.app'"
