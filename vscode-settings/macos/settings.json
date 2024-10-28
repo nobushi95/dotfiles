@@ -190,19 +190,13 @@
   "[python]": {},
   "[erb]": {
     // for auto-close-tag
-    "editor.tabSize": 2,
     "editor.autoClosingBrackets": "never"
   },
 
   // Rails
   "emmet.includeLanguages": {
-    // "ruby": "html",
     "erb": "html"
   },
-
-  // ruby
-  "rubyLsp.erbSupport": false, // temporarily work around
-  "rubyLsp.formatter": "rubocop",
 
   // go
   "go.toolsManagement.autoUpdate": true,

@@ -1,5 +1,10 @@
 aaronduino.chisel
 adrianwilczynski.asp-net-core-switcher
+aki77.html-erb
+aki77.rails-db-schema
+aki77.rails-i18n
+aki77.rails-partial
+aki77.rails-routes
 alefragnani.bookmarks
 alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
@@ -7,7 +12,6 @@ bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
 borama.ruby-slim
 bradlc.vscode-tailwindcss
-castwide.solargraph
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
@@ -94,6 +98,7 @@ ms-vscode.test-adapter-converter
 msjsdiag.vscode-react-native
 mushan.vscode-paste-image
 naumovs.color-highlight
+ngouy.vscode-gemfile-infos
 nhoizey.gremlins
 nopeslide.vscode-drawio-plugin-mermaid
 nopeslide.vscode-drawio-plugin-rtl
@@ -102,6 +107,7 @@ oderwat.indent-rainbow
 patcx.vscode-nuget-gallery
 pkief.material-icon-theme
 pranaygp.vscode-css-peek
+quoyi.rails-vscode
 qwtel.sqlite-viewer
 redhat.ansible
 redhat.java
