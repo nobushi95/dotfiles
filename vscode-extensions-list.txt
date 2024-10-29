@@ -159,4 +159,3 @@ xdebug.php-debug
 yy0931.vscode-sqlite3-editor
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
-zignd.html-css-class-completion
