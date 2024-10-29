@@ -192,6 +192,9 @@
     // for auto-close-tag
     "editor.autoClosingBrackets": "never"
   },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
 
   // Rails
   "emmet.includeLanguages": {

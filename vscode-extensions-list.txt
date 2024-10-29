@@ -37,6 +37,7 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
 gamunu.vscode-yarn
+gencer.html-slim-scss-css-class-completion
 github.copilot
 github.copilot-chat
 github.remotehub
@@ -63,6 +64,7 @@ leonardssh.vscord
 mechatroner.rainbow-csv
 mhutchie.git-graph
 micnil.vscode-checkpoints
+mrmlnc.vscode-scss
 ms-azuretools.vscode-docker
 ms-ceintl.vscode-language-pack-ja
 ms-dotnettools.blazorwasm-companion
@@ -122,6 +124,7 @@ shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shopify.ruby-extensions-pack
 shopify.ruby-lsp
+sibiraj-s.vscode-scss-formatter
 sorbet.sorbet-vscode-extension
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
