@@ -8,10 +8,12 @@ aki77.rails-routes
 alefragnani.bookmarks
 alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
+blinknlights.fuzzy-ruby-server
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
 borama.ruby-slim
 bradlc.vscode-tailwindcss
+castwide.solargraph
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
