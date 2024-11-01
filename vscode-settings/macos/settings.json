@@ -192,14 +192,18 @@
     // for auto-close-tag
     "editor.autoClosingBrackets": "never"
   },
-  "[scss]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-  },
+  "[scss]": {},
 
   // Rails
   "emmet.includeLanguages": {
     "erb": "html"
   },
+
+  // stylelint
+  // "stylelint.validate": ["css", "postcss", "scss"],
+  // "css.validate": false,
+  // "less.validate": false,
+  // "scss.validate": false,
 
   // go
   "go.toolsManagement.autoUpdate": true,

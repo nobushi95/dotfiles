@@ -6,9 +6,7 @@ aki77.rails-i18n
 aki77.rails-partial
 aki77.rails-routes
 alefragnani.bookmarks
-alexcvzz.vscode-sqlite
 bierner.markdown-mermaid
-blinknlights.fuzzy-ruby-server
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
 borama.ruby-slim
@@ -112,7 +110,6 @@ patcx.vscode-nuget-gallery
 pkief.material-icon-theme
 pranaygp.vscode-css-peek
 quoyi.rails-vscode
-qwtel.sqlite-viewer
 redhat.ansible
 redhat.java
 redhat.vscode-yaml
@@ -126,10 +123,10 @@ shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shopify.ruby-extensions-pack
 shopify.ruby-lsp
-sibiraj-s.vscode-scss-formatter
 sorbet.sorbet-vscode-extension
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
+stylelint.vscode-stylelint
 takumii.markdown-previewstyle
 takumii.markdown-toc-num
 takumii.markdowntable
