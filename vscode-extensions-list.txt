@@ -55,6 +55,7 @@ ibm.output-colorizer
 icrawl.discord-vscode
 janisdd.vscode-edit-csv
 jebbs.plantuml
+jemmyw.rails-fast-nav
 jrebocho.vscode-random
 kevin-chatham.aspnetcorerazor-html-css-class-completion
 koichisasada.vscode-rdbg
@@ -109,7 +110,6 @@ oderwat.indent-rainbow
 patcx.vscode-nuget-gallery
 pkief.material-icon-theme
 pranaygp.vscode-css-peek
-quoyi.rails-vscode
 redhat.ansible
 redhat.java
 redhat.vscode-yaml

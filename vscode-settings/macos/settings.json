@@ -242,6 +242,7 @@
   // "partialDiff.enableTelemetry": false,
   // "rest-client.enableTelemetry": false,
   // "redhat.telemetry.enabled": false,
+  // "sqlite3-editor.telemetry": "deny",
 
   // dotfiles
   "dotfiles.installCommand": "devcontainer/install.sh",
