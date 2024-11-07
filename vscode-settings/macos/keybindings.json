@@ -274,6 +274,13 @@
     "key": "ctrl+x ctrl+r",
     "command": "git.revertSelectedRanges",
     "when": "isInDiffEditor && !operationInProgress"
+  },
+
+  // Quick Open Rails
+  {
+    "key": "alt+t",
+    "command": "quickOpenRails.open",
+    "when": "editorFocus"
   }
   // EOF
 ]

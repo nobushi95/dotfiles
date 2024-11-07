@@ -1,6 +1,7 @@
 aaronduino.chisel
 adrianwilczynski.asp-net-core-switcher
 aki77.html-erb
+aki77.quick-open-rails
 aki77.rails-db-schema
 aki77.rails-i18n
 aki77.rails-partial
