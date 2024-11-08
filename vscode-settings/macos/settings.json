@@ -89,12 +89,15 @@
     "editorBracketHighlight.foreground6": "#FF0000", // 赤
     "editor.lineHighlightBorder": "#464646",
 
-    "editorIndentGuide.background1": "#623B62", // 紫
-    "editorIndentGuide.background2": "#283B62", // 青
-    "editorIndentGuide.background3": "#286228", // 緑
-    "editorIndentGuide.background4": "#626215", // 黄
-    "editorIndentGuide.background5": "#624F28", // 橙
-    "editorIndentGuide.background6": "#621515", // 赤
+    // インデントガイド色
+    // sRGBプロファイリングで測定
+    "editorIndentGuide.background1": "#6c3f6c", // 紫
+    "editorIndentGuide.background2": "#2a3f6c", // 青
+    "editorIndentGuide.background3": "#2f6c2b", // 緑
+    "editorIndentGuide.background4": "#6c6c23", // 黄
+    "editorIndentGuide.background5": "#6c552b", // 橙
+    "editorIndentGuide.background6": "#6d211b", // 赤
+    // bracket pair colorizer と同値
     "editorIndentGuide.activeBackground1": "#FF7FFF", // 紫
     "editorIndentGuide.activeBackground2": "#3F7FFF", // 青
     "editorIndentGuide.activeBackground3": "#3FFF3F", // 緑
