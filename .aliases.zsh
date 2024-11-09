@@ -22,6 +22,7 @@ alias top="top -o cpu"
 alias dirs="dirs -v"
 alias nn="nano"
 alias dc='docker compose' # MacOSには'dc'コマンドがあるので注意
+alias b='bundle'
 
 # git
 alias g="git"
@@ -36,10 +37,14 @@ function git_commit_with_arguments_message() {
     git commit --message "$*"
 }
 alias gm=git_commit_with_arguments_message
-## g br lb でローカルブランチをpecoで選択
+## ローカルブランチをpecoで選択
 alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
-## g br B でリモートブランチを含んだブランチをpecoで選択
+## リモートブランチをpecoで選択
 alias -g B='`git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+# ローカルブランチをpecoでswitch
+alias gsl='git switch `git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
+# リモートブランチをpecoでswitch
+alias gsB='git switch `git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 
 # history
 # alias h="history 30 | tail -n 30;"
