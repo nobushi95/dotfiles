@@ -39,6 +39,7 @@ formulahendry.auto-rename-tag
 formulahendry.code-runner
 gamunu.vscode-yarn
 gencer.html-slim-scss-css-class-completion
+ghbozz.hashtag
 github.copilot
 github.copilot-chat
 github.remotehub
@@ -104,6 +105,7 @@ mushan.vscode-paste-image
 naumovs.color-highlight
 ngouy.vscode-gemfile-infos
 nhoizey.gremlins
+ninoseki.vscode-mogami
 nopeslide.vscode-drawio-plugin-mermaid
 nopeslide.vscode-drawio-plugin-rtl
 nopeslide.vscode-drawio-plugin-wavedrom
@@ -132,6 +134,7 @@ takumii.markdown-previewstyle
 takumii.markdown-toc-num
 takumii.markdowntable
 tamasfe.even-better-toml
+tavo.rails-schema
 tintoy.msbuild-project-tools
 tobias-sekan.solutionextension
 tombonnike.vscode-status-bar-format-toggle
