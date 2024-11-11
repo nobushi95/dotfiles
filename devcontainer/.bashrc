@@ -9,6 +9,7 @@ alias rm="rm -i"
 alias h="history 30"
 alias dc="docker compose"
 alias b="bundle"
+alias bl='BUNDLE_GEMFILE=Gemfile.local bundle'
 alias g="git"
 alias gpl="git pull"
 alias gps="git push"
