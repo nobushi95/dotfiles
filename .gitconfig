@@ -16,12 +16,14 @@
 [alias]
 	# st = status --short
 	st = status
+	lg = log
 	br = branch
 	cm = commit
 	co = checkout
 	sw = switch
 	cp = cherry-pick
 	rb = rebase
+	ft = fetch
 	pl = pull
 	ps = push
 	gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
