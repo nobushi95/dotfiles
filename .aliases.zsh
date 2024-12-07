@@ -8,6 +8,10 @@ alias ll="ls -lgh"
 alias lla="ls -lgha"
 alias lt="ls --tree"
 
+# bat
+alias cat="bat --paging=never"
+alias less="bat"
+
 # rm
 alias clean="rm -f *~;"
 alias rm="rm -i"
