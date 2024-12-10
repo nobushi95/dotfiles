@@ -7,11 +7,13 @@ aki77.rails-i18n
 aki77.rails-partial
 aki77.rails-routes
 alefragnani.bookmarks
+aliariff.slim-lint
 bierner.markdown-mermaid
 bmewburn.vscode-intelephense-client
 bmpenuelas.waveform-render
 borama.ruby-slim
 bradlc.vscode-tailwindcss
+bung87.vscode-gemfile
 castwide.solargraph
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -112,6 +114,7 @@ nopeslide.vscode-drawio-plugin-wavedrom
 oderwat.indent-rainbow
 patcx.vscode-nuget-gallery
 pkief.material-icon-theme
+prabhakar.copy
 pranaygp.vscode-css-peek
 redhat.ansible
 redhat.java
