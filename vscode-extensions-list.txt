@@ -66,6 +66,7 @@ koichisasada.vscode-rdbg
 kreativ-software.csharpextensions
 lacroixdavid1.vscode-format-context-menu
 leonardssh.vscord
+mame.ruby-typeprof
 mechatroner.rainbow-csv
 mhutchie.git-graph
 micnil.vscode-checkpoints
@@ -104,6 +105,7 @@ ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 msjsdiag.vscode-react-native
 mushan.vscode-paste-image
+natizyskunk.sftp
 naumovs.color-highlight
 ngouy.vscode-gemfile-infos
 nhoizey.gremlins
@@ -113,6 +115,7 @@ nopeslide.vscode-drawio-plugin-rtl
 nopeslide.vscode-drawio-plugin-wavedrom
 oderwat.indent-rainbow
 patcx.vscode-nuget-gallery
+patricklee.vsnotes
 pkief.material-icon-theme
 prabhakar.copy
 pranaygp.vscode-css-peek
@@ -130,6 +133,7 @@ shd101wyy.markdown-preview-enhanced
 shopify.ruby-extensions-pack
 shopify.ruby-lsp
 sorbet.sorbet-vscode-extension
+soutaro.steep-vscode
 streetsidesoftware.code-spell-checker
 styled-components.vscode-styled-components
 stylelint.vscode-stylelint
@@ -159,6 +163,7 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscodevim.vim
+vue.volar
 wayou.vscode-todo-highlight
 willasm.rc-script
 xdebug.php-debug
