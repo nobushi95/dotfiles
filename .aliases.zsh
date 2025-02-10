@@ -70,6 +70,10 @@ alias tar-gz="tar -zxvf"
 alias tar-bz2="tar -jxvf"
 alias tar-xz="tar -Jxvf"
 
+# lazy
+alias lg="lazygit"
+alias lzd="lazydocker"
+
 # VScode
 alias code-r="code -r"
 alias code-n="code -n"
