@@ -18,6 +18,7 @@ alias rm="rm -i"
 
 # others
 alias diff="difft"
+alias dl="delta"
 alias j="jobs -l;"
 alias ssh="ssh -X"
 alias ldd="otool -L"
