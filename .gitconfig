@@ -6,10 +6,12 @@
 [merge]
 	tool = vscode
 	ff = false
+	conflictStyle = zdiff3
 [mergetool "vscode"]
 	# cmd = code --wait $MERGED # 旧設定？
 	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED # 新設定？
 [diff]
+	# external = difft # difftasticをデフォルトで使用する
 	tool = vscode
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
@@ -32,5 +34,11 @@
 	ff = only
 [core]
 	editor = code --wait
+	pager = delta
 [sequence]
 	editor = code --wait
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
