@@ -22,6 +22,7 @@ gettext
 gh
 giflib
 git
+git-delta
 glib
 gmp
 gnutls
@@ -34,8 +35,7 @@ gts
 harfbuzz
 hicolor-icon-theme
 highway
-icu4c
-icu4c@75
+icu4c@76
 imath
 isl
 jansson
@@ -48,7 +48,6 @@ libdeflate
 libepoxy
 libevent
 libgit2
-libgit2@1.7
 libidn2
 libmpc
 libnghttp2
@@ -77,6 +76,7 @@ lzo
 m4
 mpdecimal
 mpfr
+ncurses
 netpbm
 nettle
 oniguruma
@@ -88,7 +88,7 @@ pango
 pcre2
 peco
 pixman
-pkg-config
+pkgconf
 plantuml
 python-packaging
 python@3.12
@@ -98,14 +98,21 @@ readline
 ripgrep
 ruby-build
 sqlite
+tig
 tree-sitter
 unbound
 volta
 webp
+xh
 xorgproto
 xz
 zstd
+jesseduffield/lazydocker/lazydocker
+jesseduffield/lazygit/lazygit
 alacritty
+alt-tab
+clipy
+coteditor
 dotnet-sdk
 font-hackgen
 font-hackgen-nerd
@@ -115,6 +122,8 @@ font-plemol-jp-nf
 font-udev-gothic
 font-udev-gothic-nf
 iterm2
+jordanbaird-ice
+linearmouse
 middleclick
 mysqlworkbench
 rectangle
