@@ -111,9 +111,11 @@ bindkey -d
 zle -N peco-select-history
 bindkey '^r' peco-select-history
 
-# Ctrl-x, Ctrl-f で過去に移動したディレクトリを選択
+# Ctrl-g で過去に移動したディレクトリを選択
 zle -N peco-cdr
-bindkey '^t' peco-cdr
+bindkey '^g' peco-cdr
+# bindkey '^x^f' peco-cdr
+# bindkey '^t' peco-cdr
 
  # Shift-Tab で補完候補を逆順する("\e[Z"でも動作する)
 bindkey "^[[Z" reverse-menu-complete
