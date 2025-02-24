@@ -81,14 +81,6 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 # iTerm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# peco settings
-# 過去に実行したコマンドを選択
-function peco-select-history() {
-  BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
-  CURSOR=$#BUFFER
-  zle clear-screen
-}
-
 # cdr
 if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]]; then
     autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
@@ -100,7 +92,7 @@ if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]
 fi
 
 # fzf
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # bindkey
 ## なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、bindkeyをリセット
@@ -118,8 +110,8 @@ function peco-select-history() {
   CURSOR=$#BUFFER
   zle clear-screen
 }
-zle -N peco-select-history
-bindkey '^r' peco-select-history
+# zle -N peco-select-history
+# bindkey '^r' peco-select-history
 
 function peco-cdr () {
     local selected_dir="$(cdr -l | sed -E 's/^[0-9]+ *//' | peco --prompt="cdr >" --query "$LBUFFER")"
@@ -128,7 +120,27 @@ function peco-cdr () {
         zle accept-line
     fi
 }
-zle -N peco-cdr
-bindkey '^g' peco-cdr
+# zle -N peco-cdr
+# bindkey '^g' peco-cdr
 # bindkey '^x^f' peco-cdr
 # bindkey '^t' peco-cdr
+
+## fzf
+function fzf-select-history() {
+    BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER" --reverse)
+    CURSOR=$#BUFFER
+    zle reset-prompt
+}
+zle -N fzf-select-history
+bindkey '^r' fzf-select-history
+
+function fzf-cdr() {
+    local selected_dir=$(cdr -l | awk '{ print $2 }' | fzf --reverse)
+    if [ -n "$selected_dir" ]; then
+        BUFFER="cd ${selected_dir}"
+        zle accept-line
+    fi
+    zle clear-screen
+}
+zle -N fzf-cdr
+bindkey '^g' fzf-cdr

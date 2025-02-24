@@ -43,14 +43,24 @@ function git_commit_with_arguments_message() {
     git commit --message "$*"
 }
 alias gm=git_commit_with_arguments_message
-## ローカルブランチをpecoで選択
-alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
-## リモートブランチをpecoで選択
-alias -g B='`git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
-# ローカルブランチをpecoでswitch
-alias gsl='git switch `git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
-# リモートブランチをpecoでswitch
-alias gsB='git switch `git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+## peco
+### ローカルブランチから選択
+# alias -g lb='`git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
+### 全ブランチから選択
+# alias -g B='`git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+### ローカルブランチからswitch
+# alias gsl='git switch `git branch | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'
+### 全ブランチからswitch
+# alias gsB='git switch `git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+## fzf
+### ローカルブランチ選択
+alias -g lb='`git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
+### 全ブランチ選択
+# alias -g B='`git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+### ローカルブランチからswitch
+alias gsl='git switch `git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
+### 全部ランチからswitch
+alias gsB='git switch `git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 
 # history
 # alias h="history 30 | tail -n 30;"
