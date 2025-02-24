@@ -56,7 +56,7 @@ alias gm=git_commit_with_arguments_message
 ### ローカルブランチ選択
 alias -g lb='`git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
 ### 全ブランチ選択
-# alias -g B='`git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+alias -g B='`git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 ### ローカルブランチからswitch
 alias gsl='git switch `git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
 ### 全部ランチからswitch

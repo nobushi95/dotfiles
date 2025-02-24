@@ -135,7 +135,7 @@ zle -N fzf-select-history
 bindkey '^r' fzf-select-history
 
 function fzf-cdr(){
-    local selected_dir=$(cdr -l | awk '{ print $2 }' | \
+    local selected_dir=$(cdr -l | sed -E 's/^[0-9]+ *//' | \
       fzf --reverse --preview 'f() { sh -c "ls -hFG $1" }; f {}')
     if [ -n "$selected_dir" ]; then
         BUFFER="cd ${selected_dir}"
