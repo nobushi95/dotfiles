@@ -134,8 +134,9 @@ function fzf-select-history() {
 zle -N fzf-select-history
 bindkey '^r' fzf-select-history
 
-function fzf-cdr() {
-    local selected_dir=$(cdr -l | awk '{ print $2 }' | fzf --reverse)
+function fzf-cdr(){
+    local selected_dir=$(cdr -l | awk '{ print $2 }' | \
+      fzf --reverse --preview 'f() { sh -c "ls -hFG $1" }; f {}')
     if [ -n "$selected_dir" ]; then
         BUFFER="cd ${selected_dir}"
         zle accept-line
