@@ -78,6 +78,9 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 # ayenv
 # eval "$(anyenv init - --no-rehash)"
 
+# iTerm2 shell integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 # peco settings
 # 過去に実行したコマンドを選択
 function peco-select-history() {
@@ -96,6 +99,28 @@ if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]
     zstyle ':chpwd:*' recent-dirs-file "$HOME/.cache/chpwd-recent-dirs"
 fi
 
+# fzf
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# bindkey
+## なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、bindkeyをリセット
+bindkey -d
+
+## Shift-Tab で補完候補を逆順する("\e[Z"でも動作する)
+bindkey "^[[Z" reverse-menu-complete
+
+## Tab, Shift-Tab で補完をサイクルする (zsh-autocomplete)
+# bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+
+## peco
+function peco-select-history() {
+  BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
+  CURSOR=$#BUFFER
+  zle clear-screen
+}
+zle -N peco-select-history
+bindkey '^r' peco-select-history
+
 function peco-cdr () {
     local selected_dir="$(cdr -l | sed -E 's/^[0-9]+ *//' | peco --prompt="cdr >" --query "$LBUFFER")"
     if [ -n "$selected_dir" ]; then
@@ -103,28 +128,7 @@ function peco-cdr () {
         zle accept-line
     fi
 }
-
-# なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、bindkeyをリセット
-bindkey -d
-
-# Ctrl-r で過去に実行したコマンドを選択
-zle -N peco-select-history
-bindkey '^r' peco-select-history
-
-# Ctrl-g で過去に移動したディレクトリを選択
 zle -N peco-cdr
 bindkey '^g' peco-cdr
 # bindkey '^x^f' peco-cdr
 # bindkey '^t' peco-cdr
-
- # Shift-Tab で補完候補を逆順する("\e[Z"でも動作する)
-bindkey "^[[Z" reverse-menu-complete
-
-# Tab, Shift-Tab で補完をサイクルする (zsh-autocomplete)
-# bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
-
-# iTerm2 shell integration
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# fzf
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
