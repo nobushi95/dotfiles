@@ -91,9 +91,6 @@ if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]
     zstyle ':chpwd:*' recent-dirs-file "$HOME/.cache/chpwd-recent-dirs"
 fi
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # bindkey
 ## なにかの設定ファイルにbindkeyを書き換えるものが含まれているため、bindkeyをリセット
 bindkey -d
