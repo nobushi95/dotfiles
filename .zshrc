@@ -123,6 +123,8 @@ function peco-cdr () {
 # bindkey '^t' peco-cdr
 
 ## fzf
+source <(fzf --zsh)
+
 function fzf-select-history() {
     BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER" --reverse)
     CURSOR=$#BUFFER
@@ -141,4 +143,4 @@ function fzf-cdr(){
     zle clear-screen
 }
 zle -N fzf-cdr
-bindkey '^g' fzf-cdr
+bindkey '^j' fzf-cdr
