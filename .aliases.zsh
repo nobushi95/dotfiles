@@ -29,6 +29,7 @@ alias nn="nano"
 alias dc='docker compose' # MacOSには'dc'コマンドがあるので注意
 alias b='bundle'
 alias bl='BUNDLE_GEMFILE=Gemfile.local bundle'
+alias tiga='tig --all'
 
 # git
 alias g="git"
