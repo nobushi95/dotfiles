@@ -54,13 +54,13 @@ alias gm=git_commit_with_arguments_message
 # alias gsB='git switch `git branch --all | peco --prompt "GIT BRANCH>" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 ## fzf
 ### ローカルブランチ選択
-alias -g lb='`git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
+alias -g lb='`git branch | cut -c 3- | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git grn --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
 ### 全ブランチ選択
-alias -g B='`git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+alias -g B='`git branch --all | cut -c 3- | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git grn --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 ### ローカルブランチからswitch
-alias gsl='git switch `git branch | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
+alias gsl='git switch `git branch | cut -c 3- | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git grn --color=always {}" | head -n 1 | sed -e "s/^\*\s*//g"`'
 ### 全部ランチからswitch
-alias gsB='git switch `git branch --all | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git log --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
+alias gsB='git switch `git branch --all | cut -c 3- | fzf --reverse --height 100% --prompt "GIT BRANCH>" --preview "git grn --color=always {}" | head -n 1 | sed "s/.* //" | sed "s#remotes/[^/]*/##"`'
 
 # history
 # alias h="history 30 | tail -n 30;"

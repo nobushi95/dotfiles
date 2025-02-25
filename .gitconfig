@@ -30,8 +30,10 @@
 	ps = push
 	# gr = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
 	# gr = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset)%C(yellow)%d%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
-	gr = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all --date=iso
-	graph = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all --date=iso
+	gr = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --date=short
+	gra = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all --date=short
+	grn = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset)\n  %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --date=short
+	grna = log --graph --decorate --abbrev-commit --format=format:'%C(blue)%h%C(reset) - %C(green)(%ad)%C(reset)%C(yellow)%d%C(reset)\n  %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all --date=short
 [pull]
 	ff = only
 [core]

@@ -221,6 +221,7 @@
   // git-graph
   "git-graph.repository.fetchAndPrune": true,
   "git-graph.repository.fetchAndPruneTags": true,
+  "git-graph.date.format": "ISO Date & Time",
 
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
