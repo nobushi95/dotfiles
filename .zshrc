@@ -62,6 +62,10 @@ zinit wait'0b' lucid as"completion" \
 # zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
 #     zsh-users/zsh-completions
 
+# zsh-fzf-history-search
+zinit ice lucid wait'0'
+zinit light joshskidmore/zsh-fzf-history-search
+
 # 補完を選択可能にする
 zstyle ':completion::complete:*' use-cache true
 zstyle ':completion:*:default' menu select=1
@@ -130,12 +134,12 @@ function fzf-select-history() {
     CURSOR=$#BUFFER
     zle reset-prompt
 }
-zle -N fzf-select-history
-bindkey '^r' fzf-select-history
+# zle -N fzf-select-history
+# bindkey '^r' fzf-select-history
 
 function fzf-cdr(){
     local selected_dir=$(cdr -l | sed -E 's/^[0-9]+ *//' | \
-      fzf --reverse --preview 'f() { sh -c "ls -hFG $1" }; f {}')
+      fzf --reverse --preview 'f() { sh -c "ls -hFG $1" }; f {}' --prompt="cdr > ")
     if [ -n "$selected_dir" ]; then
         BUFFER="cd ${selected_dir}"
         zle accept-line

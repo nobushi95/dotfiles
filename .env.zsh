@@ -67,6 +67,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # fzf
-export FZF_CTRL_T_COMMAND=""
-export FZF_CTRL_R_COMMAND=""
-export FZF_ALT_C_COMMAND=""
+export FZF_CTRL_T_COMMAND=
+export FZF_CTRL_R_COMMAND=
+# export FZF_CTRL_R_OPTS=--reverse
+export FZF_ALT_C_COMMAND=
+export ZSH_FZF_HISTORY_SEARCH_FZF_EXTRA_ARGS=--reverse
