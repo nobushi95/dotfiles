@@ -16,6 +16,11 @@ alias less="bat"
 alias clean="rm -f *~;"
 alias rm="rm -i"
 
+# bundle
+alias b='bundle'
+alias bb='BUNDLE_GEMFILE=Gemfile bundle'
+alias bl='BUNDLE_GEMFILE=Gemfile.local bundle'
+
 # others
 alias diff="difft"
 alias dl="delta"
@@ -27,8 +32,6 @@ alias top="top -o cpu"
 alias dirs="dirs -v"
 alias nn="nano"
 alias dc='docker compose' # MacOSには'dc'コマンドがあるので注意
-alias b='bundle'
-alias bl='BUNDLE_GEMFILE=Gemfile.local bundle'
 alias tiga='tig --all'
 
 # git
