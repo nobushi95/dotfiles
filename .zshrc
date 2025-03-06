@@ -148,3 +148,7 @@ function fzf-cdr(){
 }
 zle -N fzf-cdr
 bindkey '^j' fzf-cdr
+
+# zoxide
+zle -N zi
+bindkey '^z' zi

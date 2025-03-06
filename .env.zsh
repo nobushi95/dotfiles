@@ -76,3 +76,9 @@ export ZSH_FZF_HISTORY_SEARCH_FZF_EXTRA_ARGS=--reverse
 # direnv
 # emulate zsh -c "$(direnv hook zsh)"
 eval "$(direnv hook zsh)"
+
+# zoxide
+if alias zi &>/dev/null; then
+  unalias zi
+fi
+eval "$(zoxide init zsh)"
