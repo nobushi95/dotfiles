@@ -72,8 +72,7 @@ alias gsB='git switch `git branch --all | cut -c 3- | fzf --reverse --height 100
 
 # history
 # alias h="history 30 | tail -n 30;"
-alias history='history -t "%F %T"'
-alias h="history"
+alias h='history -t "%F %T" -30'
 
 # emacs alias
 # alias em="/usr/local/opt/emacs-mac/Emacs.app/Contents/MacOS/Emacs"
