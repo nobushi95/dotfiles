@@ -1,0 +1,9 @@
+gui:
+  returnImmediately: true
+  containerStatusHealthStyle: "icon"
+customCommands:
+  containers:
+    - name: exec bash
+      attach: true
+      command: 'docker exec -it {{ .Container.ID }} bash'
+      serviceNames: []
