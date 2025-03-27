@@ -147,7 +147,7 @@ function fzf-cdr(){
     zle clear-screen
 }
 zle -N fzf-cdr
-bindkey '^j' fzf-cdr
+bindkey '^x^f' fzf-cdr
 
 # zoxide
 zle -N zi
