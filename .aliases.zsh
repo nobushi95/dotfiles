@@ -10,7 +10,7 @@ alias lt="ls --tree"
 
 # bat
 alias cat="bat --paging=never"
-alias less="bat"
+alias less="bat --pager='less -R'"
 
 # rm
 alias clean="rm -f *~;"
