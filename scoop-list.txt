@@ -21,6 +21,5 @@ python
 scoop-completion
 sourcetrail
 sqlitebrowser
-sudo
 terminal-icons
 volta
