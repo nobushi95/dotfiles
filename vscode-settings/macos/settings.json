@@ -52,6 +52,11 @@
   },
 
   // files
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
   // "files.exclude": {
   //   "**/.classpath": true,
   //   "**/.project": true,
