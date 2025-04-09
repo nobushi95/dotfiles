@@ -5,25 +5,15 @@
   // git
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
+  "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDate})",
+  "git.blame.statusBarItem.template": "${authorName} (${authorDate})",
 
   // editor font
   "editor.fontFamily": "'UDEV Gothic' ,'Explex' ,Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "HackGen, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "'Ricty Diminished', Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "SF Mono Square, MyricaM M, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "SF Mono Square, MyricaM M, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "MyricaM M, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "Menlo, Osaka-Mono, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "Osaka-Mono, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "Source Han mono, Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "'Source Han Code JP', Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "'源ノ角ゴシック Code JP', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 15,
   "editor.lineHeight": 16, // フォントサイズ+1が目安
 
   // terminal font
-  // "terminal.integrated.fontFamily": "MesloLGS NF", // for powerlelvel10k theme
-  // "terminal.integrated.fontFamily": "HackGen35 Console NFJ",
   "terminal.integrated.fontFamily": "'UDEV Gothic 35NF'",
   "terminal.integrated.fontSize": 13,
 
@@ -223,6 +213,17 @@
   "git-graph.repository.fetchAndPruneTags": true,
   "git-graph.date.format": "ISO Date & Time",
 
+  // githubPullRequest
+  "githubPullRequests.fileListLayout": "tree",
+  "githubPullRequests.pullBranch": "never",
+
+  // gitlens
+  "gitlens.advanced.fileHistoryShowMergeCommits": true,
+  "gitlens.currentLine.format": "${author, }${date}${' via  'pullRequest}${ • message|50?}",
+  "gitlens.statusBar.format": "${author}, ${date}${' via  'pullRequest}",
+  "gitlens.views.formats.commits.description": "${author, }${date}",
+  "gitlens.defaultDateFormat": "YYYY/MM/DD HH:mm:ss",
+
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
 
@@ -242,6 +243,13 @@
   "prettier.singleQuote": true,
   // "prettier.jsxSingleQuote": true,
 
+  // VSnotes
+  "vsnotes.defaultNotePath": "~/Documents/vsnotes",
+  "vsnotes.defaultNoteTitle": "{title}.{ext}",
+
+  // Gremlins
+  "gremlins.showInProblemPane": true,
+
   // telemetry
   // "gitlens.telemetry.enabled": false,
   // "partialDiff.enableTelemetry": false,
@@ -252,4 +260,5 @@
   // dotfiles
   "dotfiles.installCommand": "devcontainer/install.sh",
   "dotfiles.repository": "nobushi95/dotfiles"
+  // EOF
 }
