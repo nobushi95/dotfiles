@@ -31,6 +31,7 @@ alias clean-git="git prune; git gc;"
 alias top="top -o cpu"
 alias dirs="dirs -v"
 alias nn="nano"
+alias d='docker'
 alias dc='docker compose' # MacOSには'dc'コマンドがあるので注意
 alias tiga='tig --all'
 
