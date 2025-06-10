@@ -47,6 +47,7 @@ alias gf="git fetch"
 alias ga="git add"
 alias gb="git branch"
 alias gd="git diff"
+alias gnd="git --no-pager diff"
 alias gs="git status --short"
 function git_commit_with_arguments_message() {
     git commit --message "$*"
