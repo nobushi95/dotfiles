@@ -282,6 +282,12 @@
     "command": "quickOpenRails.open",
     "when": "editorFocus"
   },
+  // Rails Fast Nav
+  {
+    "key": "cmd+r",
+    "command": "rails.fastNavigation",
+    "when": "editorTextFocus"
+  },
   // Show Hover
   // add: ctrl + q
   {
@@ -312,6 +318,13 @@
     "key": "ctrl+q",
     "command": "list.showHover",
     "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  // インライン候補をトリガーする
+  // add: alt + space
+  {
+    "key": "alt+space",
+    "command": "editor.action.inlineSuggest.trigger",
+    "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
   }
   // EOF
 ]
