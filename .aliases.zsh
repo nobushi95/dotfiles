@@ -50,7 +50,7 @@ alias gd="git diff"
 alias gnd="git --no-pager diff"
 alias gs="git status --short"
 function git_commit_with_arguments_message() {
-    git commit --message "$*"
+    git commit --message $*
 }
 alias gm=git_commit_with_arguments_message
 ## peco
