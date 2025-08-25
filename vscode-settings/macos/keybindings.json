@@ -325,6 +325,18 @@
     "key": "alt+space",
     "command": "editor.action.inlineSuggest.trigger",
     "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+  },
+  // add: ctrl + x ctrl + c : すべてのタブを閉じる
+  {
+    "key": "ctrl+x ctrl+c",
+    "command": "workbench.action.closeEditorsInGroup",
+    "when": "!terminalFocus"
+  },
+  // remove: ctrl + x ctrl + c : ウィンドウを閉じる
+  {
+    "key": "ctrl+x ctrl+c",
+    "command": "-workbench.action.closeWindow",
+    "when": "!terminalFocus"
   }
   // EOF
 ]
