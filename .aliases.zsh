@@ -2,11 +2,18 @@
 # ls
 alias ls="lsd -F"
 # alias ls="ls -GCF"
+alias ls="eza --icons --git --time-style long-iso -F"
+
+## common
 alias l="ls"
 alias la="ls -a"
-alias ll="ls -lgh"
-alias lla="ls -lgha"
 alias lt="ls --tree"
+## ls, lsd
+# alias ll="ls -lgh"
+# alias lla="ls -lgha"
+## eza
+alias ll="ls -lg"
+alias lla="ls -lga"
 
 # bat
 alias cat="bat --paging=never"
