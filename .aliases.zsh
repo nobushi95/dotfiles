@@ -1,6 +1,6 @@
 # alias
 # ls
-alias ls="lsd -F"
+# alias ls="lsd -F"
 # alias ls="ls -GCF"
 alias ls="eza --icons --git --time-style long-iso -F"
 
