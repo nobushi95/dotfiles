@@ -29,7 +29,7 @@ alias bb='BUNDLE_GEMFILE=Gemfile bundle'
 alias bl='BUNDLE_GEMFILE=Gemfile.local bundle'
 
 # others
-alias diff="difft"
+alias diff="delta"
 alias dl="delta"
 alias j="jobs -l;"
 alias ssh="ssh -X"
