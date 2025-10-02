@@ -106,6 +106,7 @@ alias code-r="code -r"
 alias code-n="code -n"
 alias cr="code -r"
 alias cn="code -n"
+alias vsnotes="code ~/Documents/vsnotes"
 
 # Open Application
 ## Mac
