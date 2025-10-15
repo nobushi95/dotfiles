@@ -105,6 +105,12 @@ bindkey "^[[Z" reverse-menu-complete
 ## Tab, Shift-Tab で補完をサイクルする (zsh-autocomplete)
 # bindkey '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
 
+# git
+# solve tab completion slowness
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
+
 ## peco
 function peco-select-history() {
   BUFFER=$(\history -n -r 1 | peco --query "$LBUFFER")
